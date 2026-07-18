@@ -3,215 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dziennik pokładowy 785 — wpływ wyroku II FSK 785/22</title>
+<title>Dziennik pokładowy — baza orzecznictwa marynarzy 2017–2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
-<style>
-  :root{
-    --bg:#0B1622;
-    --bg-deep:#070F18;
-    --surface:#11202F;
-    --surface-2:#16283A;
-    --line:rgba(236,230,217,0.10);
-    --line-strong:rgba(236,230,217,0.20);
-    --ink:#ECE6D9;
-    --ink-dim:#9FB0BD;
-    --ink-faint:#5E7081;
-    --brass:#C99A3C;
-    --brass-dim:#8C6B2C;
-    --won:#5FA88C;
-    --won-dim:#1E2E29;
-    --lost:#B5503F;
-    --lost-dim:#2E1E1B;
-    --font-display:'Newsreader', serif;
-    --font-body:'Inter', sans-serif;
-    --font-mono:'JetBrains Mono', monospace;
-  }
-  *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  body{
-    margin:0;
-    background:var(--bg);
-    color:var(--ink);
-    font-family:var(--font-body);
-    line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-  }
-  ::selection{background:var(--brass); color:var(--bg-deep);}
 
-  .wrap{max-width:1080px; margin:0 auto; padding:0 28px;}
-
-  /* ---------- header / hero ---------- */
-  header.hero{
-    padding:64px 0 0 0;
-    background:
-      radial-gradient(ellipse 900px 400px at 15% -10%, rgba(201,154,60,0.10), transparent 60%),
-      var(--bg-deep);
-    border-bottom:1px solid var(--line);
-  }
-  .eyebrow{
-    font-family:var(--font-mono);
-    font-size:12px;
-    letter-spacing:0.14em;
-    text-transform:uppercase;
-    color:var(--brass);
-    display:flex;
-    align-items:center;
-    gap:10px;
-  }
-  .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--brass);}
-  h1{
-    font-family:var(--font-display);
-    font-weight:500;
-    font-size:clamp(32px,5vw,54px);
-    line-height:1.12;
-    margin:18px 0 14px 0;
-    max-width:880px;
-    letter-spacing:-0.01em;
-  }
-  h1 em{font-style:italic; color:var(--brass); font-weight:500;}
-  .lede{
-    font-size:17px;
-    color:var(--ink-dim);
-    max-width:640px;
-    margin:0 0 36px 0;
-  }
-  .lede b{color:var(--ink); font-weight:600;}
-
-  /* ---------- hero timeline (signature element) ---------- */
-  .hero-chart-frame{
-    position:relative;
-    margin-top:10px;
-    border-top:1px solid var(--line);
-    padding-top:18px;
-  }
-  .hero-chart-legend{
-    display:flex; gap:22px; font-size:12.5px; color:var(--ink-dim); margin-bottom:6px; flex-wrap:wrap;
-  }
-  .hero-chart-legend span{display:flex; align-items:center; gap:6px;}
-  .swatch{width:9px;height:9px;border-radius:50%;display:inline-block;}
-  #heroChartWrap{position:relative; width:100%; height:260px;}
-  .verdict-tag{
-    position:absolute; top:6px; font-family:var(--font-mono); font-size:11px; color:var(--brass);
-    letter-spacing:0.06em; border-left:1px dashed var(--brass-dim); padding-left:8px;
-  }
-
-  section{padding:56px 0;}
-  section.tight{padding:36px 0;}
-  .section-head{margin-bottom:30px;}
-  .kicker{
-    font-family:var(--font-mono); font-size:11.5px; letter-spacing:0.12em; text-transform:uppercase;
-    color:var(--ink-faint); margin-bottom:8px;
-  }
-  h2{
-    font-family:var(--font-display); font-weight:500; font-size:clamp(24px,3.2vw,32px);
-    margin:0 0 10px 0; letter-spacing:-0.01em;
-  }
-  .section-intro{color:var(--ink-dim); max-width:660px; font-size:15.5px;}
-  .section-intro b{color:var(--ink); font-weight:600;}
-  .section-intro .mono{font-family:var(--font-mono); font-size:13.5px; color:var(--brass);}
-
-  hr.rule{border:none; border-top:1px solid var(--line); margin:0;}
-
-  /* ---------- kpi cards ---------- */
-  .kpi-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden;}
-  .kpi{background:var(--surface); padding:22px 22px 20px;}
-  .kpi .label{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-faint); margin-bottom:10px;}
-  .kpi .num{font-family:var(--font-display); font-size:38px; line-height:1; color:var(--ink); font-weight:500;}
-  .kpi .num small{font-size:18px; color:var(--ink-faint); font-weight:400;}
-  .kpi .delta{margin-top:10px; font-size:13px; font-family:var(--font-mono);}
-  .delta.up{color:var(--won);}
-  .delta.flat{color:var(--ink-faint);}
-  .delta.down{color:var(--lost);}
-  .kpi .sub{margin-top:4px; font-size:12.5px; color:var(--ink-faint);}
-
-  /* ---------- log entries (precedent line) ---------- */
-  .log{border-left:1px solid var(--line-strong); margin-left:6px; padding-left:0;}
-  .log-entry{position:relative; padding:14px 0 14px 26px; border-bottom:1px solid var(--line);}
-  .log-entry:last-child{border-bottom:none;}
-  .log-entry::before{
-    content:''; position:absolute; left:-5.5px; top:20px; width:9px; height:9px; border-radius:50%;
-    background:var(--won); border:2px solid var(--bg);
-  }
-  .log-entry.neg::before{background:var(--lost);}
-  .log-row{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px 14px;}
-  .log-sygn{font-family:var(--font-mono); font-size:13.5px; color:var(--ink);}
-  .log-date{font-family:var(--font-mono); font-size:12px; color:var(--ink-faint);}
-  .log-tag{font-size:11px; font-family:var(--font-mono); padding:2px 8px; border-radius:20px; border:1px solid var(--line-strong); color:var(--ink-dim);}
-  .log-vessel{font-size:13px; color:var(--ink-dim); width:100%;}
-  .pill{display:inline-block; font-family:var(--font-mono); font-size:11px; padding:2px 9px; border-radius:20px; letter-spacing:0.03em;}
-  .pill.won{background:var(--won-dim); color:var(--won);}
-  .pill.lost{background:var(--lost-dim); color:var(--lost);}
-
-  .callout{
-    border:1px solid var(--lost); background:var(--lost-dim); border-radius:10px; padding:18px 20px; margin-top:22px;
-  }
-  .callout .ct-label{font-family:var(--font-mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--lost); margin-bottom:8px;}
-  .callout p{margin:0; font-size:14.5px; color:var(--ink); }
-  .callout .mono{font-family:var(--font-mono); color:var(--ink);}
-
-  /* ---------- two col ---------- */
-  .twocol{display:grid; grid-template-columns:1.1fr 1fr; gap:40px;}
-  @media (max-width:820px){ .twocol{grid-template-columns:1fr;} }
-
-  /* ---------- tables ---------- */
-  table.data{width:100%; border-collapse:collapse; font-size:13.5px;}
-  table.data th{
-    text-align:left; font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:0.06em;
-    color:var(--ink-faint); font-weight:500; padding:8px 10px; border-bottom:1px solid var(--line-strong);
-  }
-  table.data td{padding:9px 10px; border-bottom:1px solid var(--line); color:var(--ink-dim);}
-  table.data tr:last-child td{border-bottom:none;}
-  table.data td.name{color:var(--ink); font-weight:500;}
-  table.data td.num{font-family:var(--font-mono); text-align:right; color:var(--ink);}
-  table.data .barcell{display:flex; align-items:center; gap:8px; min-width:140px;}
-  .minibar{flex:1; height:7px; background:var(--surface-2); border-radius:3px; overflow:hidden; position:relative;}
-  .minibar i{position:absolute; left:0; top:0; bottom:0; background:var(--won); border-radius:3px;}
-  .pct{font-family:var(--font-mono); font-size:12px; min-width:34px; text-align:right; color:var(--ink);}
-
-  .chart-box{position:relative; width:100%;}
-
-  /* ---------- trick rows ---------- */
-  .trick-row{display:grid; grid-template-columns:190px 1fr 84px; gap:14px; align-items:center; padding:11px 0; border-bottom:1px solid var(--line);}
-  .trick-row:last-child{border-bottom:none;}
-  .trick-name{font-size:13.5px; color:var(--ink);}
-  .trick-bars{display:flex; flex-direction:column; gap:4px;}
-  .trick-bar-line{display:flex; align-items:center; gap:8px;}
-  .trick-bar-line .tag{font-family:var(--font-mono); font-size:10px; width:42px; color:var(--ink-faint);}
-  .trick-bar-track{flex:1; height:8px; background:var(--surface-2); border-radius:3px; display:flex; overflow:hidden;}
-  .trick-bar-track .seg-won{background:var(--won);}
-  .trick-bar-track .seg-lost{background:var(--lost);}
-  .trick-delta{font-family:var(--font-mono); font-size:11.5px; text-align:right; line-height:1.3; white-space:nowrap;}
-
-  footer{padding:50px 0 70px; border-top:1px solid var(--line);}
-  footer .colophon{font-size:13px; color:var(--ink-faint); max-width:600px;}
-  footer .colophon b{color:var(--ink-dim);}
-
-  .footnote{font-size:12.5px; color:var(--ink-faint); margin-top:14px;}
-
-  ::-webkit-scrollbar{width:10px;}
-  ::-webkit-scrollbar-track{background:var(--bg);}
-  ::-webkit-scrollbar-thumb{background:var(--surface-2); border-radius:5px;}
-
-  .badge-court{font-family:var(--font-mono); font-size:10.5px; padding:1px 7px; border-radius:4px; border:1px solid var(--line-strong); color:var(--ink-faint);}
-</style>
+<link rel="stylesheet" href="src/css/variables.css">
+<link rel="stylesheet" href="src/css/layout.css">
+<link rel="stylesheet" href="src/css/components.css">
 </head>
 <body>
 
 <header class="hero">
   <div class="wrap">
-    <div class="eyebrow"><span class="dot"></span>Analiza orzecznictwa &middot; 110 wyroków, 2017&ndash;2026</div>
-    <h1>Co naprawdę zmienił<br>wyrok <em>II FSK 785/22</em></h1>
-    <p class="lede">15 grudnia 2025 r. skład <b>siedmiu sędziów NSA</b> przesądził, że ulga abolicyjna marynarza nie zależy od bandery statku ani faktycznej zapłaty podatku w Norwegii. Poniżej: gdzie ta zasada realnie odwróciła losy spraw &mdash; a gdzie sądy nadal orzekają dokładnie tak samo, jak przed wyrokiem.</p>
+    <div class="eyebrow"><span class="dot"></span>Analiza orzecznictwa &middot; marynarze a PIT, 2017&ndash;2026</div>
+    <h1>Dziennik pokładowy<br><em>orzecznictwa</em> marynarzy</h1>
+    <p class="lede">Baza wyroków WSA i NSA dotyczących opodatkowania dochodów marynarzy &mdash; ulga abolicyjna, zaliczki, zwolnienia przedmiotowe. Poniżej: jak orzekają poszczególne sądy, jakie typy statków generują spory, jakich argumentów używa fiskus &mdash; i jak to się zmienia rok do roku.</p>
 
     <div class="hero-chart-frame">
       <div class="hero-chart-legend">
         <span><i class="swatch" style="background:var(--won)"></i>korzystny dla marynarza</span>
         <span><i class="swatch" style="background:var(--lost)"></i>niekorzystny dla marynarza</span>
-        <span style="color:var(--brass)">┊ 15.12.2025 &mdash; wyrok 785</span>
+        <span style="color:var(--brass)">┊ kamienie milowe orzecznicze</span>
       </div>
-      <div id="heroChartWrap"><canvas id="heroChart" role="img" aria-label="Wykres punktowy 110 orzeczeń w czasie od 2017 do 2026 roku, kolor punktu wskazuje wynik dla marynarza, pionowa linia oznacza datę wyroku 785"></canvas></div>
+      <div id="heroChartWrap"><canvas id="heroChart" role="img" aria-label="Wykres punktowy wszystkich orzeczeń w czasie, kolor punktu wskazuje wynik dla marynarza"></canvas></div>
     </div>
   </div>
 </header>
@@ -225,42 +40,59 @@
 
   <hr class="rule">
 
-  <!-- precedent line -->
+  <!-- trend roczny -->
   <section>
     <div class="section-head">
-      <div class="kicker">Linia precedensowa</div>
-      <h2>Osiem na osiem &mdash; tam, gdzie sprawa kopiuje 785</h2>
-      <p class="section-intro">Sprawy wprost powołujące skład siedmiu sędziów i tezę 785 (bandera, zarząd norweski, brak faktycznego podatku) wygrywają <b>niemal bez wyjątku</b>. Jeden wyrok łamie ten wzorzec.</p>
+      <div class="kicker">Tendencja wieloletnia</div>
+      <h2>Skuteczność marynarzy rok do roku</h2>
+      <p class="section-intro">Liczba spraw wygranych i przegranych w każdym roku, wraz z linią procentu skuteczności. Pokazuje, czy orzecznictwo faktycznie się poprawia w czasie, czy to chwilowe wahnięcia.</p>
     </div>
-    <div class="twocol">
-      <div>
-        <div class="kicker" style="margin-bottom:10px;">Sprawy w linii „7 sędziów / uchwała”</div>
-        <div class="log" id="logLinia7"></div>
-      </div>
-      <div>
-        <div class="kicker" style="margin-bottom:10px;">Wąska próba: spór o banderę i brak podatku w Norwegii</div>
-        <div class="log" id="logBandera"></div>
-        <div class="callout">
-          <div class="ct-label">Wyłom w linii</div>
-          <p><span class="mono">II FSK 551/23</span> (13.01.2026, tankowiec, bandera Bahamów) &mdash; NSA orzekł <b>dokładnie odwrotnie</b> niż w 785: uznał, że ulga zależy od faktycznego istnienia obowiązku podatkowego za granicą. Miesiąc po precedensie.</p>
-        </div>
-      </div>
+    <div class="chart-box" style="height:340px;">
+      <canvas id="yearlyTrendChart" role="img" aria-label="Wykres słupkowy liczby spraw wygranych i przegranych w poszczególnych latach, z linią procentu skuteczności"></canvas>
     </div>
   </section>
 
   <hr class="rule">
 
-  <!-- granica wplywu: vessel types -->
+  <!-- statki -->
   <section>
     <div class="section-head">
-      <div class="kicker">Granica wpływu</div>
-      <h2>785 nie dotyczył tego, czy statek w ogóle jest „transportem”</h2>
-      <p class="section-intro">Wyrok 785 zakładał, że transport międzynarodowy nie jest sporny. Dla statków badawczych, sejsmicznych, FPSO czy platform mieszkalnych spór toczy się o coś innego &mdash; i tam nic się nie zmieniło: <b>0% wygranych przed i po wyroku</b>.</p>
+      <div class="kicker">Typ jednostki</div>
+      <h2>Które statki generują spory &mdash; i kto je wygrywa</h2>
+      <p class="section-intro">Procent spraw wygranych przez marynarza wg skategoryzowanego typu statku. Statki badawcze i kwaterunkowe pozostają najbardziej spornym obszarem.</p>
     </div>
     <div class="chart-box" style="height:420px;">
-      <canvas id="vesselChart" role="img" aria-label="Wykres słupkowy procentu wygranych spraw marynarza wg typu statku, przed i po wyroku 785"></canvas>
+      <canvas id="vesselChart" role="img" aria-label="Wykres słupkowy procentu wygranych spraw marynarza wg typu statku"></canvas>
     </div>
   </section>
+
+  <hr class="rule">
+
+  <div class="twocol">
+    <!-- bandery -->
+    <section>
+      <div class="section-head">
+        <div class="kicker">Bandera statku</div>
+        <h2>Bandera a skuteczność</h2>
+        <p class="section-intro">Procent wygranych wg bandery statku, na którym pracował marynarz.</p>
+      </div>
+      <div class="chart-box" style="height:320px;">
+        <canvas id="banderaChart" role="img" aria-label="Wykres słupkowy procentu wygranych wg bandery statku"></canvas>
+      </div>
+    </section>
+
+    <!-- sady -->
+    <section>
+      <div class="section-head">
+        <div class="kicker">Instancja</div>
+        <h2>WSA kontra NSA</h2>
+        <p class="section-intro">Porównanie skuteczności spraw marynarzy na poziomie wojewódzkich sądów administracyjnych i Naczelnego Sądu Administracyjnego.</p>
+      </div>
+      <div class="chart-box" style="height:180px;">
+        <canvas id="courtChart" role="img" aria-label="Wykres słupkowy procentu wygranych wg sądu WSA lub NSA"></canvas>
+      </div>
+    </section>
+  </div>
 
   <hr class="rule">
 
@@ -269,8 +101,8 @@
     <section>
       <div class="section-head">
         <div class="kicker">Umowy międzynarodowe</div>
-        <h2>Tylko Norwegia odczuła zmianę</h2>
-        <p class="section-intro">Wzrost skuteczności widoczny jest niemal wyłącznie w sprawach na tle konwencji <span class="mono">PL&ndash;Norwegia</span>. Konwencja z Wielką Brytanią &mdash; mimo porównywalnej liczby spraw &mdash; pozostaje praktycznie nieporuszona.</p>
+        <h2>Skuteczność wg konwencji podatkowej</h2>
+        <p class="section-intro">Sprawy pogrupowane wg kraju, z którym łączy je umowa o unikaniu podwójnego opodatkowania powołana w wyroku.</p>
       </div>
       <table class="data" id="treatyTable"></table>
     </section>
@@ -279,8 +111,8 @@
     <section>
       <div class="section-head">
         <div class="kicker">Geografia orzecznicza</div>
-        <h2>Gdańsk: od zera do prawie połowy</h2>
-        <p class="section-intro">WSA w Gdańsku &mdash; sąd najbliższy portom i najczęściej rozpatrujący sprawy marynarzy &mdash; nie wygrał <b>żadnej</b> sprawy przed 785. Po wyroku wygrywa połowę.</p>
+        <h2>Który sąd / miasto orzeka jak</h2>
+        <p class="section-intro">Skuteczność spraw marynarzy wg miasta siedziby sądu.</p>
       </div>
       <table class="data" id="cityTable"></table>
     </section>
@@ -288,12 +120,38 @@
 
   <hr class="rule">
 
-  <!-- tricks -->
+  <!-- przepisy -->
+  <section>
+    <div class="section-head">
+      <div class="kicker">Podstawy prawne</div>
+      <h2>Najczęściej powoływane przepisy</h2>
+      <p class="section-intro">Ranking przepisów najczęściej cytowanych w uzasadnieniach, wraz ze skutecznością spraw, w których się pojawiają.</p>
+    </div>
+    <table class="data" id="przepisyTable"></table>
+  </section>
+
+  <hr class="rule">
+
+  <!-- bloki bareizmów -->
   <section>
     <div class="section-head">
       <div class="kicker">Argumentacja fiskusa</div>
-      <h2>785 rozbroił dwa „tricki” z dziesięciu</h2>
-      <p class="section-intro">Powtarzalne strategie organów podatkowych, jak nazywają je same uzasadnienia. Kolor segmentu = udział spraw wygranych / przegranych; strzałka pokazuje zmianę po wyroku.</p>
+      <h2>Bareizmy fiskusa &mdash; wg bloku tematycznego</h2>
+      <p class="section-intro">Katalog powtarzalnych, spornych strategii organów podatkowych pogrupowanych w pięć bloków: manipulacje definicyjne, dowodowe, klasyfikacyjne, proceduralne i dodatkowe.</p>
+    </div>
+    <div class="chart-box" style="height:260px;">
+      <canvas id="trickBlockChart" role="img" aria-label="Wykres słupkowy poziomy liczby spraw wygranych i przegranych wg bloku bareizmów fiskusa"></canvas>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- tricks ranking -->
+  <section>
+    <div class="section-head">
+      <div class="kicker">Ranking pojedynczych bareizmów</div>
+      <h2>Które tricki są najskuteczniejsze dla fiskusa</h2>
+      <p class="section-intro">Poszczególne bareizmy uszeregowane wg liczby spraw, w których zostały wykryte, z procentem skuteczności fiskusa.</p>
     </div>
     <div id="trickList"></div>
   </section>
@@ -303,12 +161,12 @@
   <!-- monthly trend -->
   <section>
     <div class="section-head">
-      <div class="kicker">Po wyroku, miesiąc po miesiącu</div>
-      <h2>Fala entuzjazmu, potem powrót zaległości</h2>
-      <p class="section-intro">Grudzień&ndash;styczeń: sądy rozpoznają świeże sprawy „norweskie” &mdash; wysoka skuteczność. Luty&ndash;kwiecień: do kolejki trafia zaległa fala spraw o statki badawcze &mdash; skuteczność spada niemal do zera, mimo że linia 785 wciąż obowiązuje.</p>
+      <div class="kicker">Sezonowość</div>
+      <h2>Rozkład miesięczny wyroków</h2>
+      <p class="section-intro">Liczba wyroków korzystnych i niekorzystnych w kolejnych miesiącach.</p>
     </div>
     <div class="chart-box" style="height:300px;">
-      <canvas id="trendChart" role="img" aria-label="Wykres słupkowy liczby wyroków korzystnych i niekorzystnych dla marynarza w kolejnych miesiącach po wyroku 785, od grudnia 2025 do czerwca 2026"></canvas>
+      <canvas id="trendChart" role="img" aria-label="Wykres słupkowy liczby wyroków korzystnych i niekorzystnych dla marynarza w kolejnych miesiącach"></canvas>
     </div>
   </section>
 
@@ -324,1044 +182,30 @@
     <div id="seriesGrid" class="kpi-grid"></div>
   </section>
 
+  <hr class="rule">
+
+  <!-- przeglądaj sprawy -->
+  <section>
+    <div class="section-head">
+      <div class="kicker">Przeglądaj bazę</div>
+      <h2>Wszystkie sprawy</h2>
+      <p class="section-intro">Kliknij sprawę, aby rozwinąć podsumowanie i tagi.</p>
+    </div>
+    <div id="caseCards"></div>
+  </section>
+
 </main>
 
 <footer>
   <div class="wrap">
     <hr class="rule" style="margin-bottom:28px;">
-    <p class="colophon"><b>Dziennik pokładowy 785</b> &mdash; zestawienie przygotowane na podstawie 110 orzeczeń WSA i NSA z lat 2017&ndash;2026 dot. opodatkowania dochodów marynarzy. Granica „przed / po” wyznaczona datą wydania wyroku II FSK 785/22 (15.12.2025), a nie rokiem kalendarzowym. Kategoryzacja statków i „tricki” fiskusa wyodrębnione redakcyjnie z treści uzasadnień &mdash; traktuj jako materiał poglądowy, nie opinię prawną.</p>
+    <p class="colophon"><b>Dziennik pokładowy</b> &mdash; zestawienie przygotowane na podstawie orzeczeń WSA i NSA dot. opodatkowania dochodów marynarzy, aktualizowane rocznikami w <span class="mono" style="font-family:var(--font-mono)">src/data/</span>. Kategoryzacja statków i „tricki” fiskusa wyodrębnione automatycznie z treści uzasadnień na podstawie katalogu bareizmów &mdash; traktuj jako materiał poglądowy, nie opinię prawną.</p>
   </div>
 </footer>
 
-<script>
-const DANE = {
-  "ogolem": {
-    "przed": {
-      "n": 56,
-      "poz": 7,
-      "neg": 49,
-      "pct": 12.5
-    },
-    "po": {
-      "n": 53,
-      "poz": 15,
-      "neg": 38,
-      "pct": 28.3
-    },
-    "calosc": {
-      "n": 110,
-      "poz": 23,
-      "neg": 87,
-      "pct": 20.9
-    }
-  },
-  "sad": {
-    "WSA": {
-      "przed": {
-        "n": 29,
-        "poz": 1,
-        "neg": 28,
-        "pct": 3.4
-      },
-      "po": {
-        "n": 28,
-        "poz": 8,
-        "neg": 20,
-        "pct": 28.6
-      }
-    },
-    "NSA": {
-      "przed": {
-        "n": 27,
-        "poz": 6,
-        "neg": 21,
-        "pct": 22.2
-      },
-      "po": {
-        "n": 25,
-        "poz": 7,
-        "neg": 18,
-        "pct": 28.0
-      }
-    }
-  },
-  "statki": [
-    {
-      "kategoria": "badawczy/sejsmiczny",
-      "poz": 0,
-      "neg": 28,
-      "poz_przed": 0,
-      "neg_przed": 8,
-      "poz_po": 0,
-      "neg_po": 20
-    },
-    {
-      "kategoria": "mieszkalny/kwaterunkowy",
-      "poz": 0,
-      "neg": 17,
-      "poz_przed": 0,
-      "neg_przed": 16,
-      "poz_po": 0,
-      "neg_po": 1
-    },
-    {
-      "kategoria": "brak danych",
-      "poz": 7,
-      "neg": 7,
-      "poz_przed": 2,
-      "neg_przed": 5,
-      "poz_po": 4,
-      "neg_po": 2
-    },
-    {
-      "kategoria": "wiertniczy/jack-up",
-      "poz": 1,
-      "neg": 9,
-      "poz_przed": 1,
-      "neg_przed": 6,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "kategoria": "tankowiec/chemikaliowiec",
-      "poz": 7,
-      "neg": 2,
-      "poz_przed": 1,
-      "neg_przed": 0,
-      "poz_po": 6,
-      "neg_po": 2
-    },
-    {
-      "kategoria": "inny/nieskategoryzowany",
-      "poz": 2,
-      "neg": 5,
-      "poz_przed": 2,
-      "neg_przed": 4,
-      "poz_po": 0,
-      "neg_po": 1
-    },
-    {
-      "kategoria": "holownik/zaopatrzeniowiec",
-      "poz": 1,
-      "neg": 6,
-      "poz_przed": 1,
-      "neg_przed": 3,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "kategoria": "FPSO",
-      "poz": 0,
-      "neg": 5,
-      "poz_przed": 0,
-      "neg_przed": 3,
-      "poz_po": 0,
-      "neg_po": 2
-    },
-    {
-      "kategoria": "układacz rur",
-      "poz": 0,
-      "neg": 4,
-      "poz_przed": 0,
-      "neg_przed": 2,
-      "poz_po": 0,
-      "neg_po": 2
-    },
-    {
-      "kategoria": "wsparcia nurkowego (DSV)",
-      "poz": 0,
-      "neg": 3,
-      "poz_przed": 0,
-      "neg_przed": 2,
-      "poz_po": 0,
-      "neg_po": 1
-    },
-    {
-      "kategoria": "towarowy/transportowy (inny)",
-      "poz": 2,
-      "neg": 1,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 2,
-      "neg_po": 1
-    },
-    {
-      "kategoria": "statek bezpieczeństwa",
-      "poz": 1,
-      "neg": 0,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 1,
-      "neg_po": 0
-    },
-    {
-      "kategoria": "chłodniowiec",
-      "poz": 1,
-      "neg": 0,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 1,
-      "neg_po": 0
-    },
-    {
-      "kategoria": "masowiec",
-      "poz": 1,
-      "neg": 0,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 1,
-      "neg_po": 0
-    }
-  ],
-  "umowy": [
-    {
-      "panstwo": "Norwegia",
-      "poz": 16,
-      "neg": 30,
-      "poz_przed": 5,
-      "neg_przed": 15,
-      "poz_po": 11,
-      "neg_po": 15
-    },
-    {
-      "panstwo": "UK",
-      "poz": 4,
-      "neg": 34,
-      "poz_przed": 1,
-      "neg_przed": 18,
-      "poz_po": 3,
-      "neg_po": 16
-    },
-    {
-      "panstwo": "nieustalone",
-      "poz": 1,
-      "neg": 10,
-      "poz_przed": 0,
-      "neg_przed": 8,
-      "poz_po": 1,
-      "neg_po": 2
-    },
-    {
-      "panstwo": "Singapur",
-      "poz": 1,
-      "neg": 9,
-      "poz_przed": 1,
-      "neg_przed": 6,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "panstwo": "ZEA",
-      "poz": 0,
-      "neg": 3,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "panstwo": "Malezja",
-      "poz": 0,
-      "neg": 1,
-      "poz_przed": 0,
-      "neg_przed": 1,
-      "poz_po": 0,
-      "neg_po": 0
-    },
-    {
-      "panstwo": "Holandia",
-      "poz": 1,
-      "neg": 0,
-      "poz_przed": 1,
-      "neg_przed": 0,
-      "poz_po": 0,
-      "neg_po": 0
-    },
-    {
-      "panstwo": "Austria",
-      "poz": 0,
-      "neg": 1,
-      "poz_przed": 0,
-      "neg_przed": 1,
-      "poz_po": 0,
-      "neg_po": 0
-    },
-    {
-      "panstwo": "Portugalia",
-      "poz": 0,
-      "neg": 1,
-      "poz_przed": 0,
-      "neg_przed": 1,
-      "poz_po": 0,
-      "neg_po": 0
-    }
-  ],
-  "tricki": [
-    {
-      "trick": "Trick słownikowy",
-      "poz": 4,
-      "neg": 59,
-      "poz_przed": 3,
-      "neg_przed": 29,
-      "poz_po": 1,
-      "neg_po": 30
-    },
-    {
-      "trick": "Trick na Google",
-      "poz": 2,
-      "neg": 41,
-      "poz_przed": 2,
-      "neg_przed": 25,
-      "poz_po": 0,
-      "neg_po": 16
-    },
-    {
-      "trick": "Trick na główne źródło przychodu",
-      "poz": 2,
-      "neg": 24,
-      "poz_przed": 2,
-      "neg_przed": 12,
-      "poz_po": 0,
-      "neg_po": 12
-    },
-    {
-      "trick": "Trick na brak zaświadczenia/podatku",
-      "poz": 14,
-      "neg": 10,
-      "poz_przed": 4,
-      "neg_przed": 5,
-      "poz_po": 10,
-      "neg_po": 5
-    },
-    {
-      "trick": "Trick na hotel",
-      "poz": 0,
-      "neg": 22,
-      "poz_przed": 0,
-      "neg_przed": 20,
-      "poz_po": 0,
-      "neg_po": 2
-    },
-    {
-      "trick": "Trick na banderę",
-      "poz": 13,
-      "neg": 3,
-      "poz_przed": 2,
-      "neg_przed": 1,
-      "poz_po": 11,
-      "neg_po": 2
-    },
-    {
-      "trick": "Trick na standard dowodowy",
-      "poz": 7,
-      "neg": 7,
-      "poz_przed": 3,
-      "neg_przed": 4,
-      "poz_po": 4,
-      "neg_po": 3
-    },
-    {
-      "trick": "Trick na marketing",
-      "poz": 0,
-      "neg": 11,
-      "poz_przed": 0,
-      "neg_przed": 6,
-      "poz_po": 0,
-      "neg_po": 5
-    },
-    {
-      "trick": "Trick na fragmentację",
-      "poz": 1,
-      "neg": 5,
-      "poz_przed": 0,
-      "neg_przed": 2,
-      "poz_po": 1,
-      "neg_po": 3
-    },
-    {
-      "trick": "Trick na pośrednika",
-      "poz": 2,
-      "neg": 3,
-      "poz_przed": 1,
-      "neg_przed": 1,
-      "poz_po": 1,
-      "neg_po": 2
-    },
-    {
-      "trick": "Trick na platformę",
-      "poz": 0,
-      "neg": 3,
-      "poz_przed": 0,
-      "neg_przed": 1,
-      "poz_po": 0,
-      "neg_po": 2
-    },
-    {
-      "trick": "Trick na Strefę Ekonomiczną",
-      "poz": 1,
-      "neg": 0,
-      "poz_przed": 1,
-      "neg_przed": 0,
-      "poz_po": 0,
-      "neg_po": 0
-    }
-  ],
-  "linia_bandera": {
-    "przed": [
-      {
-        "sygn": "II FSK 1145/23",
-        "data": "2025-01-14",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "II FSK 760/23",
-        "data": "2025-11-25",
-        "wynik": "pozytywny"
-      }
-    ],
-    "po": [
-      {
-        "sygn": "I SA/Gd 19/26",
-        "data": "2026-03-17",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "I SA/Gd 408/25",
-        "data": "2026-01-20",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "I SA/Gd 409/25",
-        "data": "2026-01-20",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "I SA/Gd 954/25",
-        "data": "2026-01-28",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "II FSK 542/24",
-        "data": "2026-01-28",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "II FSK 551/23",
-        "data": "2026-01-13",
-        "wynik": "negatywny"
-      },
-      {
-        "sygn": "I SA/Gd 912/24",
-        "data": "2025-12-17",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "II FSK 528/23",
-        "data": "2025-12-17",
-        "wynik": "pozytywny"
-      },
-      {
-        "sygn": "II FSK 1425/22",
-        "data": "2026-05-26",
-        "wynik": "pozytywny"
-      }
-    ]
-  },
-  "linia_7sedziow": [
-    {
-      "sygn": "II FSK 785/22",
-      "data": "2025-12-15",
-      "wynik": "pozytywny",
-      "statek": null
-    },
-    {
-      "sygn": "I SA/Gd 912/24",
-      "data": "2025-12-17",
-      "wynik": "pozytywny",
-      "statek": "LNG Tanker"
-    },
-    {
-      "sygn": "I SA/Gd 408/25",
-      "data": "2026-01-20",
-      "wynik": "pozytywny",
-      "statek": null
-    },
-    {
-      "sygn": "I SA/Gd 409/25",
-      "data": "2026-01-20",
-      "wynik": "pozytywny",
-      "statek": null
-    },
-    {
-      "sygn": "II FSK 301/24",
-      "data": "2026-01-28",
-      "wynik": "pozytywny",
-      "statek": "statek transportowy (N)"
-    },
-    {
-      "sygn": "II FSK 542/24",
-      "data": "2026-01-28",
-      "wynik": "pozytywny",
-      "statek": null
-    },
-    {
-      "sygn": "II FSK 676/23",
-      "data": "2026-01-28",
-      "wynik": "pozytywny",
-      "statek": "tankowiec"
-    },
-    {
-      "sygn": "II FSK 736/24",
-      "data": "2026-05-26",
-      "wynik": "pozytywny",
-      "statek": "tankowiec"
-    }
-  ],
-  "trend_miesieczny": [
-    {
-      "miesiac": "2025-12",
-      "poz": 3,
-      "neg": 5
-    },
-    {
-      "miesiac": "2026-01",
-      "poz": 7,
-      "neg": 8
-    },
-    {
-      "miesiac": "2026-02",
-      "poz": 0,
-      "neg": 8
-    },
-    {
-      "miesiac": "2026-03",
-      "poz": 1,
-      "neg": 5
-    },
-    {
-      "miesiac": "2026-04",
-      "poz": 1,
-      "neg": 10
-    },
-    {
-      "miesiac": "2026-05",
-      "poz": 2,
-      "neg": 2
-    },
-    {
-      "miesiac": "2026-06",
-      "poz": 1,
-      "neg": 0
-    }
-  ],
-  "miasta": [
-    {
-      "miasto": "Warszawa",
-      "poz": 14,
-      "neg": 39,
-      "poz_przed": 7,
-      "neg_przed": 21,
-      "poz_po": 7,
-      "neg_po": 18
-    },
-    {
-      "miasto": "Gdańsk",
-      "poz": 7,
-      "neg": 23,
-      "poz_przed": 0,
-      "neg_przed": 17,
-      "poz_po": 7,
-      "neg_po": 6
-    },
-    {
-      "miasto": "Szczecin",
-      "poz": 1,
-      "neg": 7,
-      "poz_przed": 1,
-      "neg_przed": 4,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "miasto": "Olsztyn",
-      "poz": 0,
-      "neg": 6,
-      "poz_przed": 0,
-      "neg_przed": 3,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "miasto": "Białystok",
-      "poz": 1,
-      "neg": 3,
-      "poz_przed": 0,
-      "neg_przed": 2,
-      "poz_po": 1,
-      "neg_po": 1
-    },
-    {
-      "miasto": "Rzeszów",
-      "poz": 0,
-      "neg": 3,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "miasto": "Bydgoszcz",
-      "poz": 0,
-      "neg": 3,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 0,
-      "neg_po": 3
-    },
-    {
-      "miasto": "Łódź",
-      "poz": 0,
-      "neg": 2,
-      "poz_przed": 0,
-      "neg_przed": 2,
-      "poz_po": 0,
-      "neg_po": 0
-    },
-    {
-      "miasto": "Wrocław",
-      "poz": 0,
-      "neg": 1,
-      "poz_przed": 0,
-      "neg_przed": 0,
-      "poz_po": 0,
-      "neg_po": 1
-    }
-  ],
-  "serie": [
-    {
-      "data": "2025-01-28",
-      "statek": "statek mieszkalny (Accommodation Platform)",
-      "wynik": "negatywny",
-      "sprawy": [
-        "II FSK 338/24",
-        "II FSK 476/23"
-      ]
-    },
-    {
-      "data": "2026-04-08",
-      "statek": "Research Vessel - jednostki badawcze",
-      "wynik": "negatywny",
-      "sprawy": [
-        "II FSK 939/23",
-        "II FSK 940/23"
-      ]
-    },
-    {
-      "data": "2026-01-20",
-      "statek": null,
-      "wynik": "pozytywny",
-      "sprawy": [
-        "I SA/Gd 408/25",
-        "I SA/Gd 409/25"
-      ]
-    },
-    {
-      "data": "2026-05-26",
-      "statek": "tankowiec",
-      "wynik": "pozytywny",
-      "sprawy": [
-        "II FSK 736/24",
-        "II FSK 1425/22"
-      ]
-    },
-    {
-      "data": "2026-04-16",
-      "statek": "statek sejsmograficzny/badawczy",
-      "wynik": "negatywny",
-      "sprawy": [
-        "II FSK 359/25",
-        "II FSK 401/25",
-        "II FSK 402/25"
-      ]
-    }
-  ],
-  "zgodnosc_785": {
-    "waska_bandera": {
-      "zgodne": 8,
-      "sprzeczne": 1,
-      "przyklad_sprzeczny": "II FSK 551/23 (13.01.2026, tankowiec, Bahamy)"
-    },
-    "szeroka_brak_zaswiadczenia": {
-      "zgodne": null
-    }
-  }
-};
-const TIMELINE = [{"data": "2017-01-11", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1551/16", "statek": "pływająca jednostka mieszkalna (Mobile Offshore Accommodation Unit)"}, {"data": "2017-02-01", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1518/16", "statek": "jednostka zakwaterowania (pływający hotel)"}, {"data": "2017-02-08", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1502/16", "statek": "sejsmograficzny statek badawczy"}, {"data": "2017-02-14", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1441/16", "statek": "jednostka zakwaterowania (Mobile Offshore Accommodation Unit)"}, {"data": "2017-02-28", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1514/16", "statek": "badawczy statek sejsmiczny"}, {"data": "2017-03-14", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1695/16", "statek": "pływająca jednostka mieszkalna (Mobile Offshore Accommodation Unit)"}, {"data": "2017-11-29", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1400/17", "statek": "pływająca jednostka mieszkalna (Mobile Offshore Accommodation Unit)"}, {"data": "2017-11-29", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1435/17", "statek": "pływająca jednostka mieszkalna (Accommodation Unit)"}, {"data": "2018-09-25", "wynik": 0, "sad": "NSA", "sygn": "II FSK 652/18", "statek": "sejsmograficzny statek badawczy"}, {"data": "2019-03-11", "wynik": 0, "sad": "NSA", "sygn": "II FSK 1039/17", "statek": null}, {"data": "2020-11-10", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 794/20", "statek": "barka kwaterunkowa (accommodation platform / jackup)"}, {"data": "2020-12-01", "wynik": 0, "sad": "NSA", "sygn": "II FSK 2088/18", "statek": "statek do układania rur (pipe-layer)"}, {"data": "2021-02-03", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1013/20", "statek": "platforma kwaterunkowa (Accommodation Platform)"}, {"data": "2021-10-26", "wynik": 0, "sad": "NSA", "sygn": "II FSK 172/21", "statek": "barka kwaterunkowa (accommodation platform / jackup)"}, {"data": "2022-01-19", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1144/21", "statek": "barka kwaterunkowa (Jack up platform)"}, {"data": "2022-05-25", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1685/21", "statek": "jackup platform / accommodation platform"}, {"data": "2022-06-07", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 1579/21", "statek": "holownik morski/zaopatrzeniowiec (Offshore Tug/Supply Ship)"}, {"data": "2022-07-14", "wynik": 0, "sad": "WSA", "sygn": "I SA/Ol 302/22", "statek": "accommodation vessel (statek mieszkalny)"}, {"data": "2022-10-25", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 391/22", "statek": "statek wiertniczy / statek wsparcia offshore"}, {"data": "2022-12-13", "wynik": 0, "sad": "WSA", "sygn": "I SA/Łd 739/22", "statek": "platforma mieszkalna (Accommodation Platform)"}, {"data": "2023-01-04", "wynik": 0, "sad": "WSA", "sygn": "I SA/Ol 494/22", "statek": "platforma wspomagająca"}, {"data": "2023-04-13", "wynik": 1, "sad": "WSA", "sygn": "I SA/Sz 918/22", "statek": "jednostka żeglugi śródlądowej"}, {"data": "2023-10-03", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 656/23", "statek": "półzanurzalny statek mieszkalny (SSAV)"}, {"data": "2023-11-29", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 772/23", "statek": "platforma (Column Stabilised Accommodation Unit)"}, {"data": "2023-12-13", "wynik": 0, "sad": "WSA", "sygn": "I SA/Łd 805/23", "statek": "platforma kwaterunkowa (Accommodation Platform)"}, {"data": "2023-12-19", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 796/23", "statek": "FPSO (Floating Production, Storage and Offloading)"}, {"data": "2023-12-19", "wynik": 0, "sad": "WSA", "sygn": "I SA/Ol 411/23", "statek": "Offshore Supply Vessel (OSV)"}, {"data": "2023-12-20", "wynik": 0, "sad": "NSA", "sygn": "II FSK 90/23", "statek": "statek sejsmiczny/badawczy"}, {"data": "2024-01-10", "wynik": 0, "sad": "WSA", "sygn": "I SA/Sz 442/23", "statek": "Research/Survey Vessel (statek badawczy)"}, {"data": "2024-01-10", "wynik": 0, "sad": "WSA", "sygn": "I SA/Sz 448/23", "statek": "FPSO (pływający punkt produkcji, magazynowania i załadunku)"}, {"data": "2024-01-10", "wynik": 0, "sad": "WSA", "sygn": "I SA/Sz 455/23", "statek": "Research Vessel (badawczy/sejsmiczny)"}, {"data": "2024-01-18", "wynik": 0, "sad": "NSA", "sygn": "II FSK 982/22", "statek": null}, {"data": "2024-01-24", "wynik": 0, "sad": "NSA", "sygn": "II FSK 529/21", "statek": "półzatapialny statek mieszkalny (Accommodation Platform)"}, {"data": "2024-07-17", "wynik": 1, "sad": "NSA", "sygn": "II FSK 1019/22", "statek": "statek instalacyjny (urządzenie roponośne)"}, {"data": "2024-07-17", "wynik": 1, "sad": "NSA", "sygn": "II FSK 1289/21", "statek": "statek instalacyjny (jack-up vessel)"}, {"data": "2024-10-23", "wynik": 0, "sad": "WSA", "sygn": "I SA/Bk 303/24", "statek": "statek badawczy (Research Vessel)"}, {"data": "2024-10-25", "wynik": 0, "sad": "NSA", "sygn": "II FSK 937/24", "statek": "FPSO (pływający system wydobywczy, magazynowy i przeładunkowy)"}, {"data": "2024-11-26", "wynik": 0, "sad": "NSA", "sygn": "II FSK 376/22", "statek": null}, {"data": "2024-12-03", "wynik": 1, "sad": "NSA", "sygn": "II FSK 418/22", "statek": "tankowiec"}, {"data": "2025-01-14", "wynik": 1, "sad": "NSA", "sygn": "II FSK 1145/23", "statek": null}, {"data": "2025-01-28", "wynik": 0, "sad": "NSA", "sygn": "II FSK 338/24", "statek": "statek mieszkalny (Accommodation Platform)"}, {"data": "2025-01-28", "wynik": 0, "sad": "NSA", "sygn": "II FSK 476/23", "statek": "statek mieszkalny (Accommodation Platform)"}, {"data": "2025-04-16", "wynik": 0, "sad": "NSA", "sygn": "II FSK 2218/23", "statek": null}, {"data": "2025-07-03", "wynik": 0, "sad": "NSA", "sygn": "II FSK 1307/22", "statek": "statek mieszkalny (accommodation vessel)"}, {"data": "2025-08-08", "wynik": 0, "sad": "NSA", "sygn": "II FSK 1490/22", "statek": "statek wiertniczy (drilling ship)"}, {"data": "2025-10-15", "wynik": 0, "sad": "NSA", "sygn": "II FSK 151/23", "statek": "statek wsparcia nurków (DSV)"}, {"data": "2025-10-17", "wynik": 0, "sad": "NSA", "sygn": "II FSK 184/23", "statek": null}, {"data": "2025-10-17", "wynik": 1, "sad": "NSA", "sygn": "II FSK 758/25", "statek": "holownik - statek zaopatrzeniowy (supply vessel)"}, {"data": "2025-10-22", "wynik": 0, "sad": "NSA", "sygn": "II FSK 244/23", "statek": "offshore support vessel (morski statek pomocniczy)"}, {"data": "2025-11-05", "wynik": 0, "sad": "NSA", "sygn": "II FSK 323/23", "statek": "statek pomocniczy do badań dna morskiego"}, {"data": "2025-11-12", "wynik": 0, "sad": "WSA", "sygn": "I SA/Bk 375/25", "statek": "statek wsparcia nurkowego (DSV)"}, {"data": "2025-11-25", "wynik": 1, "sad": "NSA", "sygn": "II FSK 760/23", "statek": null}, {"data": "2025-11-28", "wynik": 0, "sad": "NSA", "sygn": "II FSK 331/24", "statek": "jednostka służąca do eksploracji dna morskiego"}, {"data": "2025-11-28", "wynik": 0, "sad": "NSA", "sygn": "II FSK 371/23", "statek": "jednostka do układania rur i budowy infrastruktury"}, {"data": "2025-12-04", "wynik": 0, "sad": "WSA", "sygn": "I SA/Sz 445/25", "statek": "Offshore support/supply vessel (IMR)"}, {"data": "2025-12-05", "wynik": 0, "sad": "NSA", "sygn": "II FSK 420/24", "statek": "statek badawczy (Research Vessel)"}, {"data": "2025-12-15", "wynik": 1, "sad": "NSA", "sygn": "II FSK 785/22", "statek": null}, {"data": "2025-12-16", "wynik": 0, "sad": "WSA", "sygn": "I SA/Bd 514/25", "statek": "statek badawczy (research vessel)"}, {"data": "2025-12-16", "wynik": 0, "sad": "WSA", "sygn": "I SA/Ol 351/25", "statek": null}, {"data": "2025-12-16", "wynik": 0, "sad": "NSA", "sygn": "II FSK 526/23", "statek": "sejsmograficzny statek badawczy"}, {"data": "2025-12-17", "wynik": 0, "sad": "WSA", "sygn": "I SA/Bk 421/25", "statek": "statek badawczy (Research Vessel)"}, {"data": "2025-12-17", "wynik": 1, "sad": "WSA", "sygn": "I SA/Gd 912/24", "statek": "LNG Tanker"}, {"data": "2025-12-17", "wynik": 0, "sad": "WSA", "sygn": "I SA/Sz 527/25", "statek": "statek badawczy, sejsmograficzny"}, {"data": "2025-12-17", "wynik": 1, "sad": "NSA", "sygn": "II FSK 528/23", "statek": "tankowiec"}, {"data": "2025-12-18", "wynik": 1, "sad": "NSA", "sygn": "II FSK 504/23", "statek": null}, {"data": "2026-01-08", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 485/25", "statek": "Research/Survey Vessel (statek badawczy)"}, {"data": "2026-01-13", "wynik": 0, "sad": "NSA", "sygn": "II FSK 536/23", "statek": "holownik (przybrzeżny statek dostawczy)"}, {"data": "2026-01-13", "wynik": 0, "sad": "NSA", "sygn": "II FSK 551/23", "statek": "tankowiec (crude oil tanker)"}, {"data": "2026-01-14", "wynik": 0, "sad": "WSA", "sygn": "I SA/Bd 539/25", "statek": "sejsmograficzny statek badawczy"}, {"data": "2026-01-14", "wynik": 0, "sad": "WSA", "sygn": "I SA/Ol 511/25", "statek": "tankowiec / bunkierka"}, {"data": "2026-01-14", "wynik": 0, "sad": "NSA", "sygn": "II FSK 563/23", "statek": "statek badawczy (research vessel)"}, {"data": "2026-01-20", "wynik": 1, "sad": "WSA", "sygn": "I SA/Gd 408/25", "statek": null}, {"data": "2026-01-20", "wynik": 1, "sad": "WSA", "sygn": "I SA/Gd 409/25", "statek": null}, {"data": "2026-01-21", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 856/25", "statek": "mobilna jednostka wiertnicza (drilling ship)"}, {"data": "2026-01-28", "wynik": 1, "sad": "WSA", "sygn": "I SA/Bk 468/25", "statek": "statek bezpieczeństwa (Standby Safety Vessel)"}, {"data": "2026-01-28", "wynik": 1, "sad": "WSA", "sygn": "I SA/Gd 954/25", "statek": "chłodniowce"}, {"data": "2026-01-28", "wynik": 1, "sad": "NSA", "sygn": "II FSK 301/24", "statek": "statek transportowy (N)"}, {"data": "2026-01-28", "wynik": 1, "sad": "NSA", "sygn": "II FSK 542/24", "statek": null}, {"data": "2026-01-28", "wynik": 1, "sad": "NSA", "sygn": "II FSK 676/23", "statek": "tankowiec"}, {"data": "2026-01-29", "wynik": 0, "sad": "NSA", "sygn": "II FSK 702/23", "statek": "FPSO (pływający system wydobywczy, magazynowy i przeładunkowy)"}, {"data": "2026-02-04", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 935/25", "statek": "Research Vessel (statek sejsmograficzny)"}, {"data": "2026-02-10", "wynik": 0, "sad": "NSA", "sygn": "II FSK 766/23", "statek": "statek badawczy"}, {"data": "2026-02-17", "wynik": 0, "sad": "NSA", "sygn": "II FSK 795/23", "statek": null}, {"data": "2026-02-18", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 951/25", "statek": "statek towarowy (S)"}, {"data": "2026-02-18", "wynik": 0, "sad": "NSA", "sygn": "II FSK 802/23", "statek": "Offshore Tug/Supply Ship (holownik/dostawczy)"}, {"data": "2026-02-25", "wynik": 0, "sad": "WSA", "sygn": "I SA/Bd 644/25", "statek": "półzatapialna platforma zakwaterowania / Jack-Up"}, {"data": "2026-02-25", "wynik": 0, "sad": "NSA", "sygn": "II FSK 824/23", "statek": "High Speed Offshore Service Craft (jednostka usługowa)"}, {"data": "2026-02-25", "wynik": 0, "sad": "NSA", "sygn": "II FSK 893/24", "statek": "High Speed Offshore Service Craft / OSV"}, {"data": "2026-03-10", "wynik": 0, "sad": "NSA", "sygn": "II FSK 881/23", "statek": "jednostka zakwaterowania (hotel)"}, {"data": "2026-03-17", "wynik": 1, "sad": "WSA", "sygn": "I SA/Gd 19/26", "statek": "tankowiec do przewozu produktów chemicznych"}, {"data": "2026-03-18", "wynik": 0, "sad": "WSA", "sygn": "I SA/Ol 21/26", "statek": "statek wsparcia nurkowego (DSV)"}, {"data": "2026-03-24", "wynik": 0, "sad": "WSA", "sygn": "I SA/Rz 570/25", "statek": "dwufunkcyjny statek wiertniczy"}, {"data": "2026-03-25", "wynik": 0, "sad": "WSA", "sygn": "I SA/Sz 869/25", "statek": "Geotechnical Survey Vessel - statek badawczy"}, {"data": "2026-03-26", "wynik": 0, "sad": "NSA", "sygn": "II FSK 907/23", "statek": "FPSO (pływający system wydobywczy, magazynowy i przeładunkowy)"}, {"data": "2026-04-08", "wynik": 0, "sad": "NSA", "sygn": "II FSK 1363/23", "statek": "Research Vessel - statki badawcze"}, {"data": "2026-04-08", "wynik": 0, "sad": "NSA", "sygn": "II FSK 939/23", "statek": "Research Vessel - jednostki badawcze"}, {"data": "2026-04-08", "wynik": 0, "sad": "NSA", "sygn": "II FSK 940/23", "statek": "Research Vessel - jednostki badawcze"}, {"data": "2026-04-14", "wynik": 0, "sad": "WSA", "sygn": "I SA/Rz 35/26", "statek": "sejsmograficzny statek badawczy"}, {"data": "2026-04-16", "wynik": 0, "sad": "WSA", "sygn": "I SA/Wr 24/26", "statek": "statek sejsmiczny (badawczy)"}, {"data": "2026-04-16", "wynik": 0, "sad": "NSA", "sygn": "II FSK 359/25", "statek": "statek sejsmograficzny/badawczy"}, {"data": "2026-04-16", "wynik": 0, "sad": "NSA", "sygn": "II FSK 401/25", "statek": "statek sejsmograficzny/badawczy"}, {"data": "2026-04-16", "wynik": 0, "sad": "NSA", "sygn": "II FSK 402/25", "statek": "statek sejsmograficzny/badawczy"}, {"data": "2026-04-21", "wynik": 0, "sad": "WSA", "sygn": "I SA/Rz 85/26", "statek": "Pipelayer (statek do układania rurociągów)"}, {"data": "2026-04-28", "wynik": 1, "sad": "WSA", "sygn": "I SA/Gd 222/26", "statek": "masowiec (bulk carrier)"}, {"data": "2026-04-29", "wynik": 0, "sad": "WSA", "sygn": "I SA/Sz 929/25", "statek": "statek sejsmiczny/badawczy"}, {"data": "2026-05-05", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 61/26", "statek": "sejsmiczny statek badawczy"}, {"data": "2026-05-05", "wynik": 0, "sad": "WSA", "sygn": "I SA/Gd 226/26", "statek": "statki offshorowe - układacze rur"}, {"data": "2026-05-26", "wynik": 1, "sad": "NSA", "sygn": "II FSK 736/24", "statek": "tankowiec"}, {"data": "2026-05-26", "wynik": 1, "sad": "NSA", "sygn": "II FSK 1425/22", "statek": "tankowiec"}, {"data": "2026-06-17", "wynik": 1, "sad": "WSA", "sygn": "I SA/Gd 58/26", "statek": "statek do przewożenia towarów"}];
-
-</script>
-<script>
-// ---------- helpers ----------
-const WON = '#5FA88C';
-const LOST = '#B5503F';
-const BRASS = '#C99A3C';
-const INK = '#ECE6D9';
-const INK_DIM = '#9FB0BD';
-const INK_FAINT = '#5E7081';
-const GRID = 'rgba(236,230,217,0.07)';
-
-function pct(poz, neg){
-  const tot = poz + neg;
-  if(tot === 0) return null;
-  return Math.round((poz/tot)*1000)/10;
-}
-function fmtPct(p){ return (p === null) ? '—' : p.toFixed(1) + '%'; }
-
-Chart.defaults.font.family = "'Inter', sans-serif";
-Chart.defaults.color = INK_DIM;
-
-// ===========================================================
-// KPI CARDS
-// ===========================================================
-(function buildKPI(){
-  const grid = document.getElementById('kpiGrid');
-  const o = DANE.ogolem;
-  const wsa = DANE.sad.WSA;
-  const nsa = DANE.sad.NSA;
-  const norw = DANE.umowy.find(u => u.panstwo === 'Norwegia');
-
-  function deltaTag(before, after){
-    if(before === null || after === null) return '';
-    const d = after - before;
-    const cls = d > 1 ? 'up' : (d < -1 ? 'down' : 'flat');
-    const sign = d > 0 ? '+' : '';
-    return `<div class="delta ${cls}">${sign}${d.toFixed(1)} pkt proc.</div>`;
-  }
-
-  const cards = [
-    {
-      label: 'Ogółem &mdash; wszystkie sprawy',
-      num: fmtPct(o.po.pct),
-      sub: `przed: ${fmtPct(o.przed.pct)} &middot; n=${o.przed.n}/${o.po.n}`,
-      delta: deltaTag(o.przed.pct, o.po.pct)
-    },
-    {
-      label: 'WSA (I instancja)',
-      num: fmtPct(wsa.po.pct),
-      sub: `przed: ${fmtPct(wsa.przed.pct)} &middot; n=${wsa.przed.n}/${wsa.po.n}`,
-      delta: deltaTag(wsa.przed.pct, wsa.po.pct)
-    },
-    {
-      label: 'NSA (II instancja)',
-      num: fmtPct(nsa.po.pct),
-      sub: `przed: ${fmtPct(nsa.przed.pct)} &middot; n=${nsa.przed.n}/${nsa.po.n}`,
-      delta: deltaTag(nsa.przed.pct, nsa.po.pct)
-    },
-    {
-      label: 'Sprawy &bdquo;norweskie&rdquo;',
-      num: fmtPct(pct(norw.poz_po, norw.neg_po)),
-      sub: `przed: ${fmtPct(pct(norw.poz_przed, norw.neg_przed))} &middot; n=${norw.poz_przed+norw.neg_przed}/${norw.poz_po+norw.neg_po}`,
-      delta: deltaTag(pct(norw.poz_przed, norw.neg_przed), pct(norw.poz_po, norw.neg_po))
-    }
-  ];
-
-  grid.innerHTML = cards.map(c => `
-    <div class="kpi">
-      <div class="label">${c.label}</div>
-      <div class="num">${c.num} <small>wygranych po 785</small></div>
-      ${c.delta}
-      <div class="sub">${c.sub}</div>
-    </div>
-  `).join('');
-})();
-
-// ===========================================================
-// HERO TIMELINE SCATTER
-// ===========================================================
-(function buildHero(){
-  const cutoff = new Date('2025-12-15').getTime();
-  const won = [];
-  const lost = [];
-  TIMELINE.forEach((d, i) => {
-    const t = new Date(d.data).getTime();
-    const jitter = (d.sad === 'WSA') ? (0.55 + Math.random()*0.35) : (0.10 + Math.random()*0.35);
-    const point = { x: t, y: jitter, sygn: d.sygn, statek: d.statek, sad: d.sad, data: d.data };
-    (d.wynik === 1 ? won : lost).push(point);
-  });
-
-  const verticalLinePlugin = {
-    id: 'verticalLine',
-    afterDraw(chart){
-      const {ctx, chartArea, scales} = chart;
-      const x = scales.x.getPixelForValue(cutoff);
-      if(x < chartArea.left || x > chartArea.right) return;
-      ctx.save();
-      ctx.strokeStyle = BRASS;
-      ctx.setLineDash([3,4]);
-      ctx.lineWidth = 1.5;
-      ctx.beginPath();
-      ctx.moveTo(x, chartArea.top);
-      ctx.lineTo(x, chartArea.bottom);
-      ctx.stroke();
-      ctx.setLineDash([]);
-      ctx.fillStyle = BRASS;
-      ctx.font = "11px 'JetBrains Mono', monospace";
-      ctx.textAlign = 'left';
-      ctx.fillText('785 ▸', x + 6, chartArea.top + 12);
-      ctx.restore();
-    }
-  };
-
-  new Chart(document.getElementById('heroChart'), {
-    type: 'scatter',
-    data: {
-      datasets: [
-        { label: 'Korzystny', data: won, backgroundColor: WON, pointRadius: 4, pointHoverRadius: 6 },
-        { label: 'Niekorzystny', data: lost, backgroundColor: LOST, pointRadius: 4, pointHoverRadius: 6 }
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: { duration: 700 },
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#16283A',
-          borderColor: 'rgba(236,230,217,0.15)',
-          borderWidth: 1,
-          titleFont: { family: "'JetBrains Mono', monospace", size: 12 },
-          bodyFont: { family: "'Inter', sans-serif", size: 12 },
-          padding: 10,
-          callbacks: {
-            title: (items) => items[0].raw.sygn,
-            label: (item) => {
-              const r = item.raw;
-              const lines = [r.data, r.sad];
-              if(r.statek) lines.push(r.statek);
-              return lines;
-            }
-          }
-        }
-      },
-      scales: {
-        x: {
-          type: 'linear',
-          min: new Date('2016-09-01').getTime(),
-          max: new Date('2026-09-01').getTime(),
-          grid: { color: GRID, display: false },
-          ticks: {
-            color: INK_FAINT,
-            font: { family: "'JetBrains Mono', monospace", size: 11 },
-            callback: (v) => new Date(v).getFullYear(),
-            stepSize: 365*24*3600*1000
-          },
-          border: { color: 'rgba(236,230,217,0.15)' }
-        },
-        y: {
-          min: 0, max: 1,
-          display: false,
-          grid: { display: false }
-        }
-      }
-    },
-    plugins: [verticalLinePlugin]
-  });
-})();
-
-// ===========================================================
-// LOG LISTS — linia 7 sędziów + linia bandera
-// ===========================================================
-function renderLog(containerId, items, opts){
-  opts = opts || {};
-  const el = document.getElementById(containerId);
-  el.innerHTML = items.map(it => {
-    const negClass = it.wynik === 'negatywny' ? ' neg' : '';
-    const pillClass = it.wynik === 'negatywny' ? 'lost' : 'won';
-    const pillText = it.wynik === 'negatywny' ? 'przegrana' : 'wygrana';
-    const vesselLine = (opts.showVessel && it.statek) ? `<div class="log-vessel">${it.statek}</div>` : '';
-    return `
-      <div class="log-entry${negClass}">
-        <div class="log-row">
-          <span class="log-sygn">${it.sygn}</span>
-          <span class="log-date">${it.data}</span>
-          <span class="pill ${pillClass}">${pillText}</span>
-        </div>
-        ${vesselLine}
-      </div>
-    `;
-  }).join('');
-}
-
-renderLog('logLinia7', DANE.linia_7sedziow, { showVessel: true });
-
-const banderaAll = DANE.linia_bandera.przed.map(x => Object.assign({faza:'przed'}, x))
-  .concat(DANE.linia_bandera.po.map(x => Object.assign({faza:'po'}, x)));
-banderaAll.sort((a,b) => a.data.localeCompare(b.data));
-renderLog('logBandera', banderaAll);
-
-// ===========================================================
-// VESSEL CHART
-// ===========================================================
-(function buildVesselChart(){
-  const rows = DANE.statki
-    .map(s => ({
-      name: s.kategoria,
-      total: s.poz + s.neg,
-      przed: pct(s.poz_przed, s.neg_przed),
-      po: pct(s.poz_po, s.neg_po),
-      n_przed: s.poz_przed + s.neg_przed,
-      n_po: s.poz_po + s.neg_po
-    }))
-    .filter(r => r.total >= 3)
-    .sort((a,b) => b.total - a.total);
-
-  new Chart(document.getElementById('vesselChart'), {
-    type: 'bar',
-    data: {
-      labels: rows.map(r => r.name + `  (n=${r.total})`),
-      datasets: [
-        { label: 'Przed 785', data: rows.map(r => r.przed), backgroundColor: INK_FAINT, borderRadius: 3, maxBarThickness: 16 },
-        { label: 'Po 785', data: rows.map(r => r.po), backgroundColor: BRASS, borderRadius: 3, maxBarThickness: 16 }
-      ]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: {
-          display: true,
-          position: 'top',
-          align: 'start',
-          labels: { boxWidth: 10, boxHeight: 10, color: INK_DIM, font: { size: 12 } }
-        },
-        tooltip: {
-          callbacks: { label: (ctx) => ctx.dataset.label + ': ' + (ctx.parsed.x === null ? 'brak spraw' : ctx.parsed.x + '%') }
-        }
-      },
-      scales: {
-        x: { min: 0, max: 100, grid: { color: GRID }, ticks: { callback: v => v + '%', color: INK_FAINT } },
-        y: { grid: { display: false }, ticks: { color: INK_DIM, font: { size: 12 } } }
-      }
-    }
-  });
-})();
-
-// ===========================================================
-// TREATY TABLE
-// ===========================================================
-function buildRatioTable(containerId, rows, nameKey, nameLabel){
-  const el = document.getElementById(containerId);
-  const head = `<tr><th>${nameLabel}</th><th>Razem</th><th>% wygranych</th><th>Przed</th><th>Po</th></tr>`;
-  const body = rows.map(r => {
-    const total = r.poz + r.neg;
-    const p = pct(r.poz, r.neg);
-    const pp = pct(r.poz_przed, r.neg_przed);
-    const po = pct(r.poz_po, r.neg_po);
-    return `<tr>
-      <td class="name">${r[nameKey]}</td>
-      <td class="num">${total}</td>
-      <td><div class="barcell"><div class="minibar"><i style="width:${p||0}%"></i></div><span class="pct">${fmtPct(p)}</span></div></td>
-      <td class="num">${fmtPct(pp)}</td>
-      <td class="num">${fmtPct(po)}</td>
-    </tr>`;
-  }).join('');
-  el.innerHTML = `<thead>${head}</thead><tbody>${body}</tbody>`;
-}
-
-buildRatioTable('treatyTable', DANE.umowy.filter(u => (u.poz+u.neg) >= 1), 'panstwo', 'Umowa (kraj)');
-buildRatioTable('cityTable', DANE.miasta.filter(c => (c.poz+c.neg) >= 1), 'miasto', 'Sąd / miasto');
-
-// ===========================================================
-// TRICK LIST
-// ===========================================================
-(function buildTricks(){
-  const el = document.getElementById('trickList');
-  const rows = DANE.tricki.slice().sort((a,b) => (b.poz+b.neg) - (a.poz+a.neg));
-
-  el.innerHTML = rows.map(t => {
-    const pPrzed = pct(t.poz_przed, t.neg_przed);
-    const pPo = pct(t.poz_po, t.neg_po);
-    let deltaHtml = '<span style="color:var(--ink-faint)">n/d</span>';
-    if(pPrzed !== null && pPo !== null){
-      const d = pPo - pPrzed;
-      const cls = d > 5 ? 'won' : (d < -5 ? 'lost' : '');
-      const color = cls === 'won' ? WON : (cls === 'lost' ? LOST : INK_FAINT);
-      const sign = d > 0 ? '+' : '';
-      deltaHtml = `<span style="color:${color}">${sign}${d.toFixed(0)} pkt</span>`;
-    }
-    function barLine(label, poz, neg){
-      const tot = poz + neg;
-      if(tot === 0) return `<div class="trick-bar-line"><span class="tag">${label}</span><div class="trick-bar-track"></div></div>`;
-      const wonW = (poz/tot*100).toFixed(1);
-      const lostW = (neg/tot*100).toFixed(1);
-      return `<div class="trick-bar-line"><span class="tag">${label}</span>
-        <div class="trick-bar-track">
-          <div class="seg-won" style="width:${wonW}%"></div>
-          <div class="seg-lost" style="width:${lostW}%"></div>
-        </div></div>`;
-    }
-    return `
-      <div class="trick-row">
-        <div class="trick-name">${t.trick}</div>
-        <div class="trick-bars">
-          ${barLine('przed', t.poz_przed, t.neg_przed)}
-          ${barLine('po', t.poz_po, t.neg_po)}
-        </div>
-        <div class="trick-delta">${deltaHtml}</div>
-      </div>
-    `;
-  }).join('');
-})();
-
-// ===========================================================
-// MONTHLY TREND
-// ===========================================================
-(function buildTrend(){
-  const rows = DANE.trend_miesieczny;
-  new Chart(document.getElementById('trendChart'), {
-    type: 'bar',
-    data: {
-      labels: rows.map(r => r.miesiac),
-      datasets: [
-        { label: 'Korzystne', data: rows.map(r => r.poz), backgroundColor: WON, borderRadius: 3, maxBarThickness: 30 },
-        { label: 'Niekorzystne', data: rows.map(r => r.neg), backgroundColor: LOST, borderRadius: 3, maxBarThickness: 30 }
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      scales: {
-        x: { stacked: true, grid: { display: false }, ticks: { color: INK_FAINT, font: { family: "'JetBrains Mono', monospace", size: 11 } } },
-        y: { stacked: true, grid: { color: GRID }, ticks: { color: INK_FAINT, stepSize: 2 } }
-      },
-      plugins: {
-        legend: { display: true, position: 'top', align: 'start', labels: { boxWidth: 10, boxHeight: 10, color: INK_DIM, font: { size: 12 } } }
-      }
-    }
-  });
-})();
-
-// ===========================================================
-// SERIES GRID
-// ===========================================================
-(function buildSeries(){
-  const el = document.getElementById('seriesGrid');
-  const rows = DANE.serie.slice().sort((a,b) => a.data.localeCompare(b.data));
-  el.innerHTML = rows.map(s => {
-    const pillClass = s.wynik === 'negatywny' ? 'lost' : 'won';
-    const pillText = s.wynik === 'negatywny' ? 'wszystkie przegrane' : 'wszystkie wygrane';
-    return `
-      <div class="kpi">
-        <div class="label">${s.data} &middot; ${s.sprawy.length} sprawy</div>
-        <div style="font-family:var(--font-mono); font-size:13px; color:var(--ink); margin:6px 0;">${s.sprawy.join('<br>')}</div>
-        <div class="sub" style="margin-bottom:8px;">${s.statek || 'typ statku nieokreślony'}</div>
-        <span class="pill ${pillClass}">${pillText}</span>
-      </div>
-    `;
-  }).join('');
-})();
-
-</script>
+<script src="src/js/data-loader.js"></script>
+<script src="src/js/charts.js"></script>
+<script src="src/js/tables.js"></script>
+<script src="src/js/render.js"></script>
 </body>
 </html>

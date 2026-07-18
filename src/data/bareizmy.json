@@ -1,0 +1,161 @@
+[
+  {
+    "blok": "I",
+    "nazwa_bloku": "Manipulacje definicyjne",
+    "kolor": "blue",
+    "opis_bloku": "Organy skarbowe zastępują definicje traktatowe własnymi, pozaumownymi kryteriami — słownikowymi, celowościowymi lub geograficznymi.",
+    "bareizmy": [
+      {
+        "nr": 1,
+        "nazwa": "Trick słownikowy",
+        "podtytul": "Prymat encyklopedii nad traktatami",
+        "mechanizm": "US twierdzi, że transport to wyłącznie zarobkowy przewóz osób i towarów „za bilet”. Jeśli statek offshore (np. sejsmiczny, badawczy, zaopatrzeniowy) przemieszcza się w celu wykonania prac podwodnych lub wsparcia operacji, fiskus uznaje, że „transport nie jest głównym celem” — więc marynarza nie obejmuje ulga.",
+        "podstawa_prawna": "Zgodnie z art. 31-32 Konwencji Wiedeńskiej o prawie traktatów oraz Komentarzem do Modelu Konwencji OECD, należy stosować definicję traktatową, która obejmuje wszelki transport statkiem morskim eksploatowanym w ruchu międzynarodowym. Definicja krajowa może mieć zastosowanie tylko wtedy, gdy traktat nie zawiera własnej — a zawiera. Traktat jest lex specialis wobec ustawy i słownika."
+      },
+      {
+        "nr": 2,
+        "nazwa": "Trick na główne źródło przychodu",
+        "podtytul": "Pozaumowne kryterium celu",
+        "mechanizm": "Organy wymagają, by transport stanowił „główny cel” działalności armatora lub jego „podstawowe źródło przychodu”. Jeśli armator zarabia głównie na wydobyciu, serwisie podwodnym czy zakwaterowaniu, a statek jedynie wspiera te procesy, US uznaje że nie mamy do czynienia z transportem międzynarodowym.",
+        "podstawa_prawna": "Komentarz OECD do art. 8 i art. 15 ust. 3 wprost dopuszcza uznanie działalności za objętą artykułem transportowym, jeśli jest ona pomocnicza lub bezpośrednio związana z eksploatacją statku w ruchu międzynarodowym. Autobus dowożący pasażerów na lotnisko sam nie lata — ale jest częścią operacji lotniczej. Analogicznie statek zaopatrzeniowy jest częścią łańcucha transportu morskiego."
+      },
+      {
+        "nr": 3,
+        "nazwa": "Trick na Strefę Ekonomiczną",
+        "podtytul": "Negowanie międzynarodowości w WSE",
+        "mechanizm": "Organ stwierdza, że pozostawanie statku w Wyłącznej Strefie Ekonomicznej jednego państwa „zaprzecza przymiotowi międzynarodowości”. Według tej logiki transport musi odbywać się fizycznie między portami różnych państw — wymóg nieznany żadnemu traktatowi.",
+        "podstawa_prawna": "Typowa definicja traktatowa za transport międzynarodowy uznaje wszelki transport statkiem morskim, z wyjątkiem gdy jest eksploatowany wyłącznie między miejscami w państwie rezydencji marynarza. WSE nie jest terytorium lądowym żadnego państwa — ma jedynie ograniczony reżim jurysdykcyjny. Zgodnie z UNCLOS, WSE podlega tylko ograniczonym prawom suwerennym nadbrzeżnego państwa. Statek 100 mil od brzegu obcego państwa z definicji nie porusza się wyłącznie między miejscami w Polsce."
+      },
+      {
+        "nr": 4,
+        "nazwa": "Trick na fragmentację",
+        "podtytul": "Mobilność to nie transport",
+        "mechanizm": "Organ uznaje, że jednostka jest mobilna i zdolna do przewozu rzeczy, lecz twierdzi, że czyni to „jedynie w celu dotarcia do miejsca właściwej pracy” — ergo nie jest to transport zarobkowy, lecz „dojazd do pracy”.",
+        "podstawa_prawna": "Organ ignoruje udokumentowany fakt, że statek przewozi tysiące ton ładunku miesięcznie dla zewnętrznych kontrahentów na podstawie odrębnych umów frachtowych lub serwisowych. Przewóz ładunku dla podmiotów trzecich za wynagrodzeniem jest z definicji zarobkowym transportem morskim — niezależnie od tego, czy armator nazywa to mobilizacją, repozycją czy wsparciem logistycznym."
+      }
+    ]
+  },
+  {
+    "blok": "II",
+    "nazwa_bloku": "Manipulacje dowodowe",
+    "kolor": "amber",
+    "opis_bloku": "Organy odrzucają dokumenty urzędowe najwyższej mocy dowodowej na rzecz informacji z internetu, stron marketingowych i kodów statystycznych.",
+    "bareizmy": [
+      {
+        "nr": 5,
+        "nazwa": "Trick na Google",
+        "podtytul": "Internet ponad dokumentację kapitańską",
+        "mechanizm": "US ignoruje wpisy w książeczce żeglarskiej, karty pracy, odcinki wynagrodzeń i certyfikaty armatora, uznając na podstawie portalu żeglugowego lub danych AIS, że statek w danym okresie nie pływał — bo stał w porcie lub stoczni.",
+        "podstawa_prawna": "Fiskus de facto przyjmuje zasadę, że statek w porcie przestaje być statkiem, a marynarz na nim stojący — marynarzem. Ignoruje się fakt, że statek w porcie nadal pozostaje w eksploatacji, pod nadzorem państwa bandery, z załogą pełniącą wachty i pod dozorem celnym. Postój portowy jest integralną częścią cyklu operacyjnego każdej jednostki morskiej."
+      },
+      {
+        "nr": 6,
+        "nazwa": "Trick na marketing",
+        "podtytul": "Opisy ze stron www zamiast certyfikatów",
+        "mechanizm": "Organ opiera definicję charakteru statku na opisie ze strony internetowej armatora lub branżowego portalu, wykorzystując marketingowe określenia: floatel, accommodation unit, offshore hotel itp.",
+        "podstawa_prawna": "Organ ignoruje dokumentację techniczną o najwyższej mocy dowodowej: Certyfikat Bezpieczeństwa (Safety Construction Certificate), Dokument Zgodności SMC/DOC, Dokument Minimalnej Obsady, świadectwo klasy towarzystwa klasyfikacyjnego. Marketingowe nazewnictwo nie ma żadnego znaczenia prawnego w reżimie konwencji SOLAS, MARPOL i MLC."
+      },
+      {
+        "nr": 7,
+        "nazwa": "Trick na Kod SIC/NACE",
+        "podtytul": "Prymat statystyki nad substancją",
+        "mechanizm": "Organ sprawdza w rejestrze handlowym, że przedmiotem działalności armatora jest kod odpowiadający np. wsparciu wydobycia ropy i gazu. Na tej podstawie uznaje, że żaden statek tej korporacji nie może prowadzić transportu.",
+        "podstawa_prawna": "O statusie podatkowym marynarza decyduje faktyczna natura operacji na konkretnym statku (substance over form), a nie kod statystyczny całej grupy kapitałowej. Wielkie koncerny posiadają floty liczące dziesiątki jednostek o różnym przeznaczeniu. NSA wielokrotnie wskazywał, że funkcje pomocnicze nie odbierają statkowi charakteru transportowego, jeśli faktycznie przemieszcza ładunki lub osoby w ramach ruchu międzynarodowego."
+      },
+      {
+        "nr": 8,
+        "nazwa": "Trick na standard dowodowy",
+        "podtytul": "Mylenie procedur",
+        "mechanizm": "W postępowaniu o ograniczenie poboru zaliczek (art. 22 § 2a Ordynacji podatkowej) podatnik ma jedynie uprawdopodobnić swoje racje. Tymczasem organy wymagają pełnego udowodnienia, odrzucając manifesty cargo i zaświadczenia armatora.",
+        "podstawa_prawna": "Takie działanie zamienia szybką procedurę zabezpieczającą — mającą chronić podatnika przed nadmiernym obciążeniem — w pełne postępowanie wymiarowe trwające miesiącami. NSA wskazał, że jest to rażące naruszenie prawa, bo organ de facto zmienia charakter prawny postępowania bez podstawy ustawowej."
+      }
+    ]
+  },
+  {
+    "blok": "III",
+    "nazwa_bloku": "Manipulacje klasyfikacyjne",
+    "kolor": "purple",
+    "opis_bloku": "Specjalistyczne jednostki morskie są arbitralnie reklasyfikowane jako obiekty stacjonarne, hotele lub stałe zakłady — wbrew dokumentacji technicznej i prawu morza.",
+    "bareizmy": [
+      {
+        "nr": 9,
+        "nazwa": "Trick na hotel",
+        "podtytul": "Negowanie natury statku",
+        "mechanizm": "Urzędnicy twierdzą, że skoro do dużej jednostki półzanurzalnej (semi-sub) wyposażonej w system dynamicznego pozycjonowania (DP) podpływają mniejsze statki (PSV) w celu przekazania ładunku, to duża jednostka musi być nieruchoma — ergo jest stacjonarną platformą.",
+        "podstawa_prawna": "Statek na DP nie stoi — aktywnie walczy z siłami natury (prądy, wiatr, fale) za pomocą pędników. Zgodnie z logiką organu, każdy statek podczas operacji bunkrowania lub przeładunku na redzie (STS) stawałby się budynkiem. Jednostka posiadająca napęd własny, załogę certyfikowaną STCW, dokument MSMD i certyfikaty SOLAS jest statkiem morskim — niezależnie od tego, jak długo utrzymuje pozycję."
+      },
+      {
+        "nr": 10,
+        "nazwa": "Trick na platformę",
+        "podtytul": "Statek mobilny = stały zakład",
+        "mechanizm": "Organ argumentuje, że skoro jednostka pracuje przez kilka miesięcy w jednej lokalizacji (np. przy polu naftowym), to staje się stałym zakładem przedsiębiorstwa, a marynarz jest traktowany jak pracownik lądowy oddelegowany do zakładu.",
+        "podstawa_prawna": "Komentarz OECD do art. 5 wyraźnie wyłącza statki morskie z definicji stałego zakładu, nawet jeśli operują w jednym miejscu przez dłuższy czas. Kryterium jest natura obiektu (statek vs. instalacja stała), nie czas postoju. Art. 15 ust. 3 UPO jest przepisem szczególnym (lex specialis) dla załóg statków — ma pierwszeństwo przed ogólnymi zasadami przypisania dochodów do zakładu."
+      }
+    ]
+  },
+  {
+    "blok": "IV",
+    "nazwa_bloku": "Nadużycia proceduralne",
+    "kolor": "red",
+    "opis_bloku": "Instrumentalne wykorzystanie narzędzi proceduralnych — w tym prawa karnego — do wywierania presji na podatnika i obejścia terminów przedawnienia.",
+    "bareizmy": [
+      {
+        "nr": 11,
+        "nazwa": "Presja karno-skarbowa",
+        "podtytul": "KKS jako narzędzie zawieszenia przedawnienia",
+        "mechanizm": "Fiskus stawia zarzuty karne marynarzom, którzy rozliczyli się zgodnie z obowiązującymi w danym momencie interpretacjami ogólnymi Ministra Finansów lub indywidualnymi interpretacjami podatkowymi — ale organ zmienił zdanie co do wykładni przepisów, niekiedy retroaktywnie.",
+        "podstawa_prawna": "Narusza to zasadę ochrony zaufania do organów państwa (art. 121 § 1 Ordynacji podatkowej) oraz art. 14k O.p. Wszczynanie postępowań karnych ma często na celu wyłącznie zawieszenie biegu przedawnienia zobowiązania (art. 70 § 6 pkt 1 O.p.). Taką praktykę wprost potępił NSA w uchwale 7 sędziów z 24 maja 2021 r. (I FPS 1/21), uznając wszczęcie postępowania karnoskarbowego wyłącznie w celu zawieszenia biegu przedawnienia za niedopuszczalne."
+      },
+      {
+        "nr": 12,
+        "nazwa": "Ignorowanie orzecznictwa NSA",
+        "podtytul": "Testowanie systemu wadliwymi decyzjami",
+        "mechanizm": "Mimo przełomowych wyroków NSA — w tym orzeczeń składów poszerzonych — urzędy skarbowe nadal stosują stare, obalone przez sąd tezy w nowych postępowaniach, licząc że podatnik nie zaskarży decyzji z powodu kosztów, stresu lub niewiedzy.",
+        "podstawa_prawna": "Tworzy to sytuację, w której prawo sądowe (orzecznictwo) i prawo stosowane (praktyka urzędów) to dwa odrębne porządki. Marynarz, nawet mając za sobą korzystne wyroki NSA w analogicznych sprawach, musi od nowa walczyć o swoje prawa — co jest zaprzeczeniem zasady pewności prawa i równości wobec prawa (art. 32 Konstytucji RP)."
+      }
+    ]
+  },
+  {
+    "blok": "V",
+    "nazwa_bloku": "Bareizmy dodatkowe",
+    "kolor": "gray",
+    "opis_bloku": "Zróżnicowany katalog dalszych praktyk: od kwestionowania bandery i struktury zatrudnienia, przez manipulację liczeniem dni, po wymóg dokumentów-widm i podwójne blokowanie ulgi abolicyjnej.",
+    "bareizmy": [
+      {
+        "nr": 13,
+        "nazwa": "Trick na banderę wygodną",
+        "podtytul": "Kwestionowanie reżimu prawnego statku",
+        "mechanizm": "Organ ignoruje, że miejsce faktycznego zarządu przedsiębiorstwem (place of effective management) jest kryterium odrębnym od bandery. Odmawia zastosowania UPO z państwem, w którym armator ma faktyczny zarząd, bo bandera jest z rajskiego państwa.",
+        "podstawa_prawna": "Bandera statku ma znaczenie dla reżimu bezpieczeństwa morskiego (SOLAS, STCW), ale dla celów UPO liczy się miejsce faktycznego zarządu przedsiębiorstwa eksploatującego statek — a to jest kwestia faktu, nie rejestru statku. Mieszanie obu kryteriów jest błędem prawnym niemającym oparcia w żadnej umowie o unikaniu podwójnego opodatkowania."
+      },
+      {
+        "nr": 14,
+        "nazwa": "Trick na pośrednika",
+        "podtytul": "Agencja crewingowa jako pracodawca",
+        "mechanizm": "Marynarz jest formalnie zatrudniony przez armatora lub operatora statku z siedzibą za granicą, ale rekrutacja odbywa się przez polską agencję crewingową. Organ uznaje agencję za pracodawcę i stosuje art. 15 ust. 1-2 UPO zamiast art. 15 ust. 3.",
+        "podstawa_prawna": "Agencja crewingowa jest pośrednikiem, nie pracodawcą w rozumieniu prawa pracy morskiej (MLC 2006). Kluczowe jest, kto sprawuje kontrolę nad pracą marynarza na statku, kto wypłaca wynagrodzenie i kto jest stroną umowy o pracę — a to jest armator lub operator. Formalna rola agencji jako pośrednika rekrutacyjnego nie zmienia charakteru stosunku pracy."
+      },
+      {
+        "nr": 15,
+        "nazwa": "Trick na rezydencję przez obecność",
+        "podtytul": "Manipulacja liczeniem dni w Polsce",
+        "mechanizm": "Organ wlicza dni tranzytu, urlopów, pobytów w porcie i kwarantanny do limitu ośrodka interesów życiowych, lub próbuje opodatkować dni tranzytu jako pracę w Polsce — zamiast w ruchu międzynarodowym.",
+        "podstawa_prawna": "Metoda liczenia dni powinna być spójna z wytycznymi OECD i praktyką międzynarodową. Dzień spędzony w tranzycie (np. na lotnisku w drodze na statek) nie jest dniem pracy w Polsce w rozumieniu UPO i nie powinien podważać charakteru pracy w transporcie międzynarodowym. Centrum interesów życiowych marynarza — przy prawidłowej ocenie — znajduje się na statku lub za granicą."
+      },
+      {
+        "nr": 16,
+        "nazwa": "Trick na brak zaświadczenia",
+        "podtytul": "Wymóg dokumentu, który nie istnieje",
+        "mechanizm": "US żąda zaświadczenia od armatora, że statek wykonywał transport międzynarodowy — dokumentu nieznanego praktyce morskiej. Zagraniczni armatorzy nie wystawiają takich zaświadczeń, bo nie jest to wymóg żadnego systemu prawnego. Brak dokumentu = brak ulgi.",
+        "podstawa_prawna": "Charakter eksploatacji statku wynika z dokumentacji pokładowej (dziennik okrętowy, deck log, manifesty, voyage reports), certyfikatów i umów czarterowych — nie z zaświadczeń ad hoc tworzonych na potrzeby polskiego urzędu skarbowego. Żądanie dokumentu-widma jest równoznaczne z bezprawną odmową przyjęcia legalnych środków dowodowych."
+      },
+      {
+        "nr": 17,
+        "nazwa": "Trick na podwójne uderzenie limitem abolicyjnym",
+        "podtytul": "Jeden błędny argument — dwa ciosy",
+        "mechanizm": "Z powodu konwencji MLI marynarz rozlicza się metodą zaliczenia proporcjonalnego i musi ratować się ulgą abolicyjną. Aby zastosować ulgę bez limitu (art. 27g ust. 5 ustawy o PIT), musi udowodnić pracę na statku w transporcie międzynarodowym. Urząd — stosując np. Trick na Google lub Trick na Hotel — orzeka, że to nie był transport międzynarodowy.",
+        "podstawa_prawna": "Skutek: zamiast podatku 0 zł, marynarz otrzymuje do zapłaty kilkadziesiąt tysięcy złotych, bo jest traktowany jak zwykły pracownik lądowy objęty twardym limitem 1360 zł rocznie. Organ używa jednego kuriozalnego argumentu, by pozbawić marynarza ochrony na obu frontach jednocześnie — najpierw odmawia zwolnienia z UPO, a następnie odmawia prawa do nielimitowanej ulgi abolicyjnej. Jest to sprzeczne z zasadą proporcjonalności i celem instytucji ulgi abolicyjnej."
+      }
+    ]
+  }
+]

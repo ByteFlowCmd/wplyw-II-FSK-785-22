@@ -1,0 +1,82 @@
+/* ===========================================================
+   components.css — kpi, log spraw, tabele, tricki, pigułki
+   =========================================================== */
+
+/* ---------- kpi cards ---------- */
+.kpi-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden;}
+.kpi{background:var(--surface); padding:22px 22px 20px;}
+.kpi .label{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-faint); margin-bottom:10px;}
+.kpi .num{font-family:var(--font-display); font-size:38px; line-height:1; color:var(--ink); font-weight:500;}
+.kpi .num small{font-size:18px; color:var(--ink-faint); font-weight:400;}
+.kpi .delta{margin-top:10px; font-size:13px; font-family:var(--font-mono);}
+.delta.up{color:var(--won);}
+.delta.flat{color:var(--ink-faint);}
+.delta.down{color:var(--lost);}
+.kpi .sub{margin-top:4px; font-size:12.5px; color:var(--ink-faint);}
+
+/* ---------- log entries (precedent line) ---------- */
+.log{border-left:1px solid var(--line-strong); margin-left:6px; padding-left:0;}
+.log-entry{position:relative; padding:14px 0 14px 26px; border-bottom:1px solid var(--line);}
+.log-entry:last-child{border-bottom:none;}
+.log-entry::before{
+  content:''; position:absolute; left:-5.5px; top:20px; width:9px; height:9px; border-radius:50%;
+  background:var(--won); border:2px solid var(--bg);
+}
+.log-entry.neg::before{background:var(--lost);}
+.log-row{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px 14px;}
+.log-sygn{font-family:var(--font-mono); font-size:13.5px; color:var(--ink);}
+.log-date{font-family:var(--font-mono); font-size:12px; color:var(--ink-faint);}
+.log-tag{font-size:11px; font-family:var(--font-mono); padding:2px 8px; border-radius:20px; border:1px solid var(--line-strong); color:var(--ink-dim);}
+.log-vessel{font-size:13px; color:var(--ink-dim); width:100%;}
+.pill{display:inline-block; font-family:var(--font-mono); font-size:11px; padding:2px 9px; border-radius:20px; letter-spacing:0.03em;}
+.pill.won{background:var(--won-dim); color:var(--won);}
+.pill.lost{background:var(--lost-dim); color:var(--lost);}
+
+.callout{
+  border:1px solid var(--lost); background:var(--lost-dim); border-radius:10px; padding:18px 20px; margin-top:22px;
+}
+.callout .ct-label{font-family:var(--font-mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--lost); margin-bottom:8px;}
+.callout p{margin:0; font-size:14.5px; color:var(--ink); }
+.callout .mono{font-family:var(--font-mono); color:var(--ink);}
+.callout.neutral{border-color:var(--brass); background:rgba(201,154,60,0.08);}
+.callout.neutral .ct-label{color:var(--brass);}
+
+/* ---------- tables ---------- */
+table.data{width:100%; border-collapse:collapse; font-size:13.5px;}
+table.data th{
+  text-align:left; font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:0.06em;
+  color:var(--ink-faint); font-weight:500; padding:8px 10px; border-bottom:1px solid var(--line-strong);
+}
+table.data td{padding:9px 10px; border-bottom:1px solid var(--line); color:var(--ink-dim);}
+table.data tr:last-child td{border-bottom:none;}
+table.data td.name{color:var(--ink); font-weight:500;}
+table.data td.num{font-family:var(--font-mono); text-align:right; color:var(--ink);}
+table.data .barcell{display:flex; align-items:center; gap:8px; min-width:140px;}
+.minibar{flex:1; height:7px; background:var(--surface-2); border-radius:3px; overflow:hidden; position:relative;}
+.minibar i{position:absolute; left:0; top:0; bottom:0; background:var(--won); border-radius:3px;}
+.pct{font-family:var(--font-mono); font-size:12px; min-width:34px; text-align:right; color:var(--ink);}
+
+.chart-box{position:relative; width:100%;}
+
+/* ---------- trick rows ---------- */
+.trick-row{display:grid; grid-template-columns:190px 1fr 84px; gap:14px; align-items:center; padding:11px 0; border-bottom:1px solid var(--line);}
+.trick-row:last-child{border-bottom:none;}
+.trick-name{font-size:13.5px; color:var(--ink);}
+.trick-bars{display:flex; flex-direction:column; gap:4px;}
+.trick-bar-line{display:flex; align-items:center; gap:8px;}
+.trick-bar-line .tag{font-family:var(--font-mono); font-size:10px; width:42px; color:var(--ink-faint);}
+.trick-bar-track{flex:1; height:8px; background:var(--surface-2); border-radius:3px; display:flex; overflow:hidden;}
+.trick-bar-track .seg-won{background:var(--won);}
+.trick-bar-track .seg-lost{background:var(--lost);}
+.trick-delta{font-family:var(--font-mono); font-size:11.5px; text-align:right; line-height:1.3; white-space:nowrap;}
+
+.badge-court{font-family:var(--font-mono); font-size:10.5px; padding:1px 7px; border-radius:4px; border:1px solid var(--line-strong); color:var(--ink-faint);}
+
+/* ---------- karta orzeczenia (nowe: rozwijalny szczegół sprawy) ---------- */
+.case-card{border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin-bottom:10px; background:var(--surface); cursor:pointer;}
+.case-card:hover{border-color:var(--line-strong);}
+.case-card .teza{font-family:var(--font-display); font-size:15px; color:var(--ink); margin:8px 0 0;}
+.case-card .detail{display:none; margin-top:12px; padding-top:12px; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-dim);}
+.case-card.open .detail{display:block;}
+.case-card .tags{display:flex; gap:6px; flex-wrap:wrap; margin-top:10px;}
+.case-card .tag{font-family:var(--font-mono); font-size:10.5px; padding:2px 8px; border-radius:20px; background:var(--surface-2); color:var(--ink-faint);}

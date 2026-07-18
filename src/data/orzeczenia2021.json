@@ -1,0 +1,56 @@
+[
+  {
+    "id": "i-sa-gd-1013-20",
+    "data_orzeczenia": "2021-02-03",
+    "sygnatura": "I SA/Gd 1013/20",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "I instancja",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 27g ustawy o PIT"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "platforma kwaterunkowa (Accommodation Platform)",
+    "teza": "Jednostka pełniąca funkcję hotelową dla pracowników offshore nie jest eksploatowana w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd uznał, że jednostka „S” służy wyłącznie zakwaterowaniu, a nie przewozowi osób i ładunków. Przyjęto definicję transportu morskiego jako przewozu zarobkowego pasażerów przez wody morskie, wyłączając obiekty stacjonarne. „Skarżący wykonywał pracę na jednostce będącej w istocie pływającym domem (hotelem pracowniczym)” [12, 13].",
+    "podsumowanie": "Marynarz przegrał sprawę o zaliczki, ponieważ fiskus zastosował „Trick na hotel” oraz „Trick na Google”. Organ na podstawie wydruków z portali Vesselfinder i Marinetraffic podważył oświadczenia strony, kwalifikując statek jako „Accommodation Platform” [12, 13]. Sąd zaakceptował prymat słownikowej definicji transportu nad celem traktatowym ulgi abolicyjnej [14, 15].",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "hotel",
+      "zaliczki",
+      "Wielka Brytania"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/1C80B0ED4F"
+  },
+  {
+    "id": "ii-fsk-172-21",
+    "data_orzeczenia": "2021-10-26",
+    "sygnatura": "II FSK 172/21",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "II instancja",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 27g u.p.d.o.f.",
+      "art. 27 ust. 9 i 9a u.p.d.o.f."
+    ],
+    "statek_bandera": "Wyspy Marshalla",
+    "statek_typ": "barka kwaterunkowa (accommodation platform / jackup)",
+    "teza": "Ulga abolicyjna nie przysługuje przy pracy w państwie bez umowy UPO, jeśli podatnik nie zapłacił tam podatku dochodowego.",
+    "uzasadnienie_sadu": "NSA uznał, że warunkiem abolicji w krajach takich jak Brazylia jest faktyczna zapłata podatku za granicą. Sąd stwierdził, że „statek ten w ogóle nie był wykorzystywany do transportu ludzi czy ładunków”, dając wiarę internetowym wydrukom AIS. Sąd zaakceptował odrzucenie dokumentacji marynarza na rzecz informacji znalezionych przez fiskusa w sieci.",
+    "podsumowanie": "Marynarz pracujący w Brazylii przegrał spór o zaliczki, ponieważ fiskus skutecznie zastosował „Trick na brak zaświadczenia” oraz „Trick na hotel”. Urząd podważył transportowy charakter jednostki przy pomocy „Tricku na Google” (dane z portali żeglugowych), co NSA w pełni zaaprobował. Sąd orzekł, że bez drenażu podatkowego za granicą ulga abolicyjna marynarzowi się nie należy.",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "hotel",
+      "Brazylia",
+      "zaliczki"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/849DBB0934"
+  }
+]

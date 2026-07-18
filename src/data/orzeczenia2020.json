@@ -1,0 +1,324 @@
+[
+  {
+    "id": "i-sa-gd-1502-16",
+    "data_orzeczenia": "2017-02-08",
+    "sygnatura": "I SA/Gd 1502/16",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "sejsmograficzny statek badawczy",
+    "teza": "Praca na statku badawczym nie stanowi pracy w transporcie międzynarodowym uprawniającej do ograniczenia poboru zaliczek.",
+    "uzasadnienie_sadu": "Sąd uznał, że transport morski to zarobkowy przewóz pasażerów i ładunków, a jednostka badawcza temu nie służy. Przyjęto definicję z Encyklopedii PWN zamiast autonomicznego rozumienia traktatowego. „Skarżący wykonywał pracę na statku badawczym, który w ogóle nie był wykorzystywany do transportu”.",
+    "podsumowanie": "Marynarz pracował na jednostce sejsmicznej i chciał ograniczenia zaliczek ze względu na ulgę abolicyjną. Fiskus wygrał, stosując „Trick słownikowy” (prymat encyklopedii nad traktatami) oraz „Trick na Google” poprzez wykorzystanie danych z internetowych ewidencji statków do podważenia oświadczeń strony. Sąd przyklepał tezę, że badania to nie transport, ignorując szeroką definicję international traffic.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ulga abolicyjna",
+      "Norwegia"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/2F3B66D606"
+  },
+  {
+    "id": "i-sa-gd-1514-16",
+    "data_orzeczenia": "2017-02-28",
+    "sygnatura": "I SA/Gd 1514/16",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27 ust. 9 u.p.d.o.f.",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "badawczy statek sejsmiczny",
+    "teza": "Sejsmograficzny statek badawczy nie jest jednostką eksploatowaną w transporcie międzynarodowym w rozumieniu Konwencji PL-Norwegia.",
+    "uzasadnienie_sadu": "Sąd przyjął, że transport to zarobkowy przewóz osób i ładunków, a jednostka badawcza nie spełnia tej definicji. Wykorzystano definicję z Encyklopedii PWN jako nadrzędną wobec pojęć zawartych w umowach o unikaniu podwójnego opodatkowania. „Skarżący wykonywał pracę na statku badawczym, który w ogóle nie był wykorzystywany do transportu”.",
+    "podsumowanie": "Marynarz pracujący na jednostce sejsmicznej „S” starał się o ograniczenie poboru zaliczek w związku z planowaną ulgą abolicyjną. Fiskus wygrał sprawę, stosując „Trick słownikowy” poprzez zastąpienie definicji traktatowej potocznym rozumieniem transportu oraz „Trick na Google”, opierając się na danych z rejestru DNV GL i Internetu zamiast na dokumentacji marynarza. Sąd utrzymał decyzję w mocy, uznając, że specyfika statku badawczego wyklucza go z kategorii transportu międzynarodowego.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ulga abolicyjna",
+      "Norwegia"
+    ],
+    "link_cbis": null
+  },
+  {
+    "id": "i-sa-gd-1400-17",
+    "data_orzeczenia": "2017-11-29",
+    "sygnatura": "I SA/Gd 1400/17",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g ustawy o PIT"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "pływająca jednostka mieszkalna (Mobile Offshore Accommodation Unit)",
+    "teza": "Jednostka służąca jako miejsce zamieszkania dla pracowników offshore nie spełnia definicji statku eksploatowanego w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd uznał, że transport międzynarodowy oznacza przewóz osób i ładunków między portami w różnych państwach, a jednostka A.S. służy jako „pływający dom”. Przyjęto słownikową definicję transportu, wykluczając z niej statki stacjonarne wspierające wydobycie. „Przedmiotowy statek nie służy bowiem do transportu międzynarodowego, lecz jako miejsce zamieszkania dla pracowników”.",
+    "podsumowanie": "Marynarz starał się o ograniczenie zaliczek, jednak przegrał z powodu zastosowania przez fiskusa „Tricku na hotel” oraz „Tricku słownikowego”. Sąd uznał dane z rejestru DNV oraz portali Vesselfinder („Trick na Google”) za bardziej wiarygodne niż zaświadczenie kapitana, stwierdzając brak ruchu jednostki. Fiskus skutecznie zakwestionował również norweski zarząd, wskazując na skomplikowaną strukturę właścicielską i banderę Bahamów.",
+    "tagi": [
+      "zaliczki",
+      "ulga abolicyjna",
+      "transport międzynarodowy",
+      "hotel",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl/doc/F037A35F4B"
+  },
+  {
+    "id": "i-sa-gd-1435-17",
+    "data_orzeczenia": "2017-11-29",
+    "sygnatura": "I SA/Gd 1435/17",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g ustawy o PIT"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "pływająca jednostka mieszkalna (Accommodation Unit)",
+    "teza": "Brak uprawdopodobnienia eksploatacji statku w transporcie międzynarodowym wyklucza prawo do ograniczenia poboru zaliczek.",
+    "uzasadnienie_sadu": "Sąd stwierdził, że jednostka mieszkalna dla pracowników offshore nie realizuje funkcji transportowej w rozumieniu Konwencji PL-Norwegia. Odwołano się do definicji transportu z SJP PWN jako zarobkowego przewozu osób i ładunków środkami lokocji. „W ocenie organu odwoławczego, definicji tej nie spełnia jednostka, która służy jako miejsce zamieszkania dla pracowników branży morskiej”.",
+    "podsumowanie": "Sprawa o ograniczenie zaliczek zakończyła się porażką marynarza, gdyż fiskus skutecznie zastosował „Trick na hotel” oraz „Trick słownikowy”. Sąd potwierdził, że skoro jednostka przebywa w jednym miejscu w Brazylii i nie zawija do portów, to nie wykonuje transportu. Urząd wykorzystał dane z internetu do podważenia oświadczeń strony, a sąd uznał to za dopuszczalne w ramach swobodnej oceny dowodów.",
+    "tagi": [
+      "zaliczki",
+      "ulga abolicyjna",
+      "transport międzynarodowy",
+      "hotel",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl/doc/690EB1B2FD"
+  },
+  {
+    "id": "i-sa-gd-1441-16",
+    "data_orzeczenia": "2017-02-14",
+    "sygnatura": "I SA/Gd 1441/16",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g ustawy o PIT"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "jednostka zakwaterowania (Mobile Offshore Accommodation Unit)",
+    "teza": "Jednostka stacjonarna służąca za dom dla pracowników offshore nie realizuje funkcji transportu międzynarodowego.",
+    "uzasadnienie_sadu": "Sąd przyjął, że transport to zarobkowy przewóz osób/ładunków, a jednostka badana służyła wyłącznie zakwaterowaniu personelu w Brazylii. Fiskus na podstawie danych AIS („Trick na Google”) wykazał brak ruchu statku w 2016 roku, co Sąd uznał za wystarczające do zanegowania transportu. „Skarżący wykonywał pracę na statku, który w ogóle nie był wykorzystywany do transportu”.",
+    "podsumowanie": "Marynarz przegrał sprawę o zaliczki, ponieważ sąd zaakceptował zestaw bareizmów: „Trick na hotel”, „Trick słownikowy” oraz „Trick na Google”. Organ na podstawie wydruków z portali Marinetraffic i Vesselfinder podważył zaświadczenie kapitana o charakterze transportowym jednostki. Sąd odrzucił również argumentację o ochronie z interpretacji indywidualnej, uznając, że przedstawiony w niej stan faktyczny był niezgodny z rzeczywistością.",
+    "tagi": [
+      "zaliczki",
+      "ulga abolicyjna",
+      "transport międzynarodowy",
+      "hotel",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl/doc/7B76F6D6B1"
+  },
+  {
+    "id": "i-sa-gd-1518-16",
+    "data_orzeczenia": "2017-02-01",
+    "sygnatura": "I SA/Gd 1518/16",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "jednostka zakwaterowania (pływający hotel)",
+    "teza": "Wykonywanie pracy na jednostce o charakterze hotelowym uniemożliwia uprawdopodobnienie eksploatacji w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd wskazał, że transport należy rozumieć jako przemieszczanie osób i dóbr za pomocą odpowiednich środków, a jednostka „A” służyła stacjonarnemu zakwaterowaniu pracowników. Dane z internetu wykazały, że statek nie przemieszczał się między portami, co wyklucza jego transportowy charakter. „Jednostka ta z uwagi na charakter i przeznaczenie, nie spełnia wymogu eksploatacji w międzynarodowym transporcie morskim”.",
+    "podsumowanie": "Marynarz nie uzyskał ograniczenia zaliczek, ponieważ sąd w pełni podzielił zastosowany przez fiskusa „Trick na hotel” oraz „Trick słownikowy”. Sąd uznał, że praca na „pływającym domu” w Brazylii nie jest pracą w transporcie, przedkładając definicję z SJP nad autonomię prawa podatkowego. Dodatkowo fiskus skutecznie zastosował „Trick na Google”, analizując pozycję statku na portalach żeglugowych zamiast opierać się na dokumentach marynarza.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "hotel",
+      "uprawdopodobnienie",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl/doc/A06C59EA3B"
+  },
+  {
+    "id": "i-sa-gd-1551-16",
+    "data_orzeczenia": "2017-01-11",
+    "sygnatura": "I SA/Gd 1551/16",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g ustawy o PIT"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "pływająca jednostka mieszkalna (Mobile Offshore Accommodation Unit)",
+    "teza": "Funkcja hotelowa jednostki offshore dominuje nad jej mobilnością, co wyklucza status statku w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd uznał, że uprawdopodobnienie wymaga wiarygodnych środków dowodowych, a dokumentacja marynarza nie wykazała transportowego charakteru statku. Na podstawie danych z internetu ustalono, że jednostka przebywa stale w Brazylii jako hotel dla pracowników offshore. „Skarżący wykonywał pracę na statku, który w ogóle nie był wykorzystywany do transportu, nie mógł zatem być wykorzystywany do transportu międzynarodowego”.",
+    "podsumowanie": "Kolejna porażka marynarza pracującego na jednostce kwaterunkowej. Fiskus zablokował ulgę abolicyjną, stosując „Trick na hotel” oraz „Trick na brak zaświadczenia/podatku” (uzależniając ulgę od zapłaty podatku w Norwegii). Sąd zaakceptował prymat danych z internetu („Trick na Google”) nad książeczką żeglarską i oświadczeniami kapitana, uznając stacjonarny charakter pracy za decydujący o braku prawa do preferencji podatkowej.",
+    "tagi": [
+      "zaliczki",
+      "ulga abolicyjna",
+      "transport międzynarodowy",
+      "hotel",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl/doc/5B8599E900"
+  },
+  {
+    "id": "i-sa-gd-1695-16",
+    "data_orzeczenia": "2017-03-14",
+    "sygnatura": "I SA/Gd 1695/16",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 27g u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "pływająca jednostka mieszkalna (Mobile Offshore Accommodation Unit)",
+    "teza": "Pływająca jednostka mieszkalna nie jest statkiem eksploatowanym w transporcie międzynarodowym uprawniającym do ulgi abolicyjnej.",
+    "uzasadnienie_sadu": "Sąd uznał, że transport międzynarodowy oznacza przewóz osób i ładunków między portami, a sporna jednostka służyła jako „pływający dom” [1]. Przyjęto potoczne znaczenie słowa transport z SJP PWN, wykluczając z tej kategorii obiekty stacjonarne wspierające wydobycie [1]. Sąd stwierdził, że „przedmiotowy statek nie służy bowiem do transportu międzynarodowego, lecz jako miejsce zamieszkania dla pracowników” [2, 3].",
+    "podsumowanie": "Marynarz starał się o ograniczenie zaliczek, jednak przegrał z powodu zastosowania przez fiskusa „Tricku na hotel” oraz „Tricku słownikowego”. Sąd uznał dane z rejestru DNV oraz brak informacji o ruchu jednostki w sieci („Trick na Google”) za ważniejsze niż dokumenty marynarza [1, 4]. Fiskus skutecznie zakwestionował również norweski zarząd, wskazując na skomplikowaną strukturę właścicielską i banderę Bahamów [3, 4].",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "hotel",
+      "zaliczki",
+      "Norwegia"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/F037A35F4B"
+  },
+  {
+    "id": "ii-fsk-652-18",
+    "data_orzeczenia": "2018-09-25",
+    "sygnatura": "II FSK 652/18",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 § 2a Ordynacji podatkowej"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "sejsmograficzny statek badawczy",
+    "teza": "Praca na sejsmograficznym statku badawczym nie stanowi pracy w transporcie międzynarodowym w rozumieniu Konwencji PL-Norwegia.",
+    "uzasadnienie_sadu": "NSA uznał, że transport należy rozumieć w znaczeniu powszechnym jako zespół czynności związanych z przemieszczaniem osób i dóbr za pomocą odpowiednich środków [1]. Sąd stwierdził, że statek badawczy służący do badań geofizycznych nie jest statkiem transportowym [2]. „Żadna z objętych wskazanymi kodami usług transportu morskiego nie odnosi się do statków badawczych” [2].",
+    "podsumowanie": "Marynarz przegrał sprawę o ograniczenie zaliczek, ponieważ sąd w pełni zaakceptował zastosowany przez fiskusa „Trick słownikowy” [1, 3]. NSA przedłożył potoczną definicję transportu nad szeroką definicję traktatową „ruchu międzynarodowego”, stosując dodatkowo „Trick na główne źródło przychodu” poprzez negowanie transportowego charakteru jednostki badawczej [2, 4]. Sąd zignorował argumentację marynarza o pomocniczym charakterze transportu na statkach offshore [1].",
+    "tagi": [
+      "statek badawczy",
+      "transport międzynarodowy",
+      "Norwegia",
+      "zaliczki",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl/"
+  },
+  {
+    "id": "ii-fsk-1039-17",
+    "data_orzeczenia": "2019-03-11",
+    "sygnatura": "II FSK 1039/17",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "II instancja",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 60 p.p.s.a.",
+      "art. 161 § 1 pkt 1 p.p.s.a.",
+      "art. 193 p.p.s.a."
+    ],
+    "statek_bandera": null,
+    "statek_typ": null,
+    "teza": "Cofnięcie skargi kasacyjnej przez podatnika wiąże sąd i skutkuje umorzeniem postępowania kasacyjnego.",
+    "uzasadnienie_sadu": "NSA stwierdził, że wobec skutecznego cofnięcia skargi kasacyjnej przez pełnomocnika marynarza, wydanie merytorycznego wyroku stało się bezprzedmiotowe. Sąd wskazał, że „strona może cofnąć skargę kasacyjną, a sąd jest tym wnioskiem związany”. Postępowanie zostało umorzone, co uprawomocniło niekorzystną dla podatnika decyzję o zaliczkach.",
+    "podsumowanie": "Marynarz zrezygnował z dalszej walki przed NSA i wycofał skargę kasacyjną od wyroku WSA w Gdańsku. Sąd orzekł o umorzeniu postępowania kasacyjnego i zwrocie uiszczonego wpisu. Brak merytorycznego rozstrzygnięcia NSA oznacza, że spór z fiskusem dotyczący odmowy ograniczenia zaliczek zakończył się utrzymaniem w mocy decyzji organu.",
+    "tagi": [
+      "zaliczki",
+      "skarga kasacyjna",
+      "procedura",
+      "umorzenie",
+      "PIT"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-2088-18",
+    "data_orzeczenia": "2020-12-01",
+    "sygnatura": "II FSK 2088/18",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 15 ust. 3 Umowy PL-Singapur",
+      "art. 3 ust. 1 lit. h Umowy PL-Singapur",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek do układania rur (pipe-layer)",
+    "teza": "Eksploatacja statku przy budowie rurociągów podwodnych nie stanowi transportu międzynarodowego w rozumieniu przepisów podatkowych.",
+    "uzasadnienie_sadu": "Sąd uznał, że transport międzynarodowy musi być główną funkcją jednostki i wiązać się z zarobkowym przewozem osób lub ładunków. „Tę sytuację można porównać do firmy deweloperskiej, która nie staje się firmą transportową tylko i wyłącznie przez to, że dostarcza potrzebne do budowy towary własnym transportem”. Wykładnia językowa wyrazu „eksploatować” nakazuje wiązać go z bezpośrednim czerpaniem zysków z usług transportowych [12].",
+    "podsumowanie": "Marynarz nie uzyskał prawa do ulgi abolicyjnej, ponieważ NSA zastosował „Trick słownikowy” oraz „Trick na główne źródło przychodu”. Sąd uznał, że praca na statku budującym infrastrukturę podwodną nie mieści się w definicji transportu, przedkładając definicję z SJP nad szerokie rozumienie „international traffic”. Fiskus skutecznie przekonał sąd, że przewóz materiałów budowlanych i załogi na własne potrzeby operacyjne nie jest działalnością transportową [12, 13].",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "układanie rur",
+      "Singapur",
+      "PIT"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-794-20",
+    "data_orzeczenia": "2020-11-10",
+    "sygnatura": "I SA/Gd 794/20",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 27g u.p.d.o.f.",
+      "art. 27 ust. 9 u.p.d.o.f."
+    ],
+    "statek_bandera": "Wyspy Marshalla",
+    "statek_typ": "barka kwaterunkowa (accommodation platform / jackup)",
+    "teza": "Brak uprawdopodobnienia zapłaty podatku w Brazylii oraz praca na platformie mieszkalnej wykluczają ograniczenie zaliczek.",
+    "uzasadnienie_sadu": "Sąd orzekł, że warunkiem abolicji w krajach bez umowy (Brazylia) jest faktyczna zapłata podatku za granicą [20, 21]. Sąd stwierdził, że „skarżący wykonywał pracę na platformie, zatem statek ten w ogóle nie był wykorzystywany do transportu ludzi czy ładunków” [22]. Sąd uznał dane AIS z portali Marinetraffic i Vesselfinder za wiarygodne dowody na brak ruchu jednostki [23, 24].",
+    "podsumowanie": "Marynarz przegrał walkę o ograniczenie zaliczek, ponieważ fiskus zastosował „Trick na brak zaświadczenia” oraz „Trick na hotel” [11, 25]. Urząd skutecznie podważył transportowy charakter jednostki, wykorzystując dane z portali żeglugowych („Trick na Google”) [16, 23]. Sąd potwierdził tezę organu, uznając informacje z internetu za bardziej wiarygodne niż zaświadczenie kapitana statku [20, 22].",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "hotel",
+      "Brazylia",
+      "zaliczki"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/849DBB0934"
+  }
+]

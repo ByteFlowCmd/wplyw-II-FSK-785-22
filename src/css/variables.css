@@ -1,0 +1,39 @@
+/* ===========================================================
+   variables.css — paleta kolorów, fonty, reset
+   =========================================================== */
+:root{
+  --bg:#0B1622;
+  --bg-deep:#070F18;
+  --surface:#11202F;
+  --surface-2:#16283A;
+  --line:rgba(236,230,217,0.10);
+  --line-strong:rgba(236,230,217,0.20);
+  --ink:#ECE6D9;
+  --ink-dim:#9FB0BD;
+  --ink-faint:#5E7081;
+  --brass:#C99A3C;
+  --brass-dim:#8C6B2C;
+  --won:#5FA88C;
+  --won-dim:#1E2E29;
+  --lost:#B5503F;
+  --lost-dim:#2E1E1B;
+  --font-display:'Newsreader', serif;
+  --font-body:'Inter', sans-serif;
+  --font-mono:'JetBrains Mono', monospace;
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-body);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--brass); color:var(--bg-deep);}
+
+::-webkit-scrollbar{width:10px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--surface-2); border-radius:5px;}

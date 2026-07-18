@@ -1,0 +1,1240 @@
+[
+  {
+    "id": "i-sa-gd-485-25",
+    "data_orzeczenia": "2026-01-08",
+    "sygnatura": "I SA/Gd 485/25",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 27g ustawy PIT"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "Research/Survey Vessel (statek badawczy)",
+    "teza": "Statki badawcze sejsmiczne nie są eksploatowane w transporcie międzynarodowym, co wyklucza ograniczenie poboru zaliczek.",
+    "uzasadnienie_sadu": "Sąd uznał, że przemieszczanie się jednostek badawczych służy wyłącznie realizacji prac naukowych, a nie zarobkowemu przewozowi osób i towarów. „Źródłem przychodu takiej jednostki nie jest zatem morski transport międzynarodowy”. Podkreślono, że uprawdopodobnienie wymaga wiarygodnych środków dowodowych, a nie tylko oświadczeń podatnika.",
+    "podsumowanie": "Marynarz starał się o ograniczenie zaliczek, jednak przegrał z powodu zastosowania przez fiskusa „Tricku słownikowego” oraz „Tricku na Google”. Sąd uznał dane z portali internetowych za bardziej wiarygodne niż certyfikaty statku, uznając, że badania dna morskiego to działalność przemysłowa, a nie transportowa. Fiskus skutecznie podważył transportowy charakter jednostki Research Vessel.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ulga abolicyjna",
+      "Wielka Brytania"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/E91E0B3097"
+  },
+  {
+    "id": "ii-fsk-536-23",
+    "data_orzeczenia": "2026-01-13",
+    "sygnatura": "II FSK 536/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 3 ust. 1 lit. h Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "holownik (przybrzeżny statek dostawczy)",
+    "teza": "Eksploatacja holownika pełniącego funkcje pomocnicze nie stanowi transportu międzynarodowego uprawniającego do ulgi.",
+    "uzasadnienie_sadu": "NSA uznał, że wyraz „eksploatować” w kontekście transportu oznacza bezpośrednie czerpanie zysków z przewozu osób lub towarów [50]. Sąd przyjął, że jednostki pomocnicze (holowniki) nie realizują transportu zarobkowego, a jedynie wspierają inne operacje gospodarcze [50]. Potwierdzono prymat wykładni językowej pojęcia transport nad szerokim ujęciem „international traffic” [50, 51].",
+    "podsumowanie": "Marynarz pracujący na holowniku przegrał przed NSA, ponieważ sąd usankcjonował „Trick słownikowy” fiskusa [50, 52]. NSA uznał, że skoro głównym źródłem przychodu armatora nie jest fracht, to praca na takiej jednostce nie daje prawa do ograniczenia zaliczek [50, 51]. Sąd zignorował argumentację o funkcjonalnym charakterze transportu offshore, zrównując statki pomocnicze z „dojazdem do pracy” [50].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "holownik",
+      "ulga abolicyjna",
+      "SJP"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-551-23",
+    "data_orzeczenia": "2026-01-13",
+    "sygnatura": "II FSK 551/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 27 ust. 9 i 9a ustawy PIT",
+      "art. 27g ust. 2 ustawy PIT",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "tankowiec (crude oil tanker)",
+    "teza": "Praca na statku pod banderą państwa trzeciego, niepodlegająca opodatkowaniu w Norwegii, wyklucza zastosowanie ulgi abolicyjnej.",
+    "uzasadnienie_sadu": "Sąd stwierdził, że skoro dochód marynarza w ogóle nie podlegał opodatkowaniu w Norwegii (brak obowiązku), to nie można mówić o unikania podwójnego opodatkowania. „Zwolnienie z opodatkowania może wystąpić wyłącznie w sytuacji, gdy występuje obowiązek podatkowy”. Sąd uznał, że bandera Bahamów wyklucza stosowanie norweskich zwolnień traktatowych.",
+    "podsumowanie": "Marynarz przegrał sprawę o abolicję, ponieważ NSA usankcjonował zastosowany przez fiskusa „Trick na banderę” oraz „Trick na brak podatku”. Sąd uznał, że ulga abolicyjna zależy od faktycznego istnienia obowiązku podatkowego za granicą, co w przypadku statków spoza rejestrów NIS/NOR uznano za niemożliwe. Jest to przykład restrykcyjnej wykładni szkodliwej dla marynarzy pracujących u norweskich operatorów.",
+    "tagi": ["abolicja", "bandera", "Norwegia", "tankowiec", "PIT"],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-bd-539-25",
+    "data_orzeczenia": "2026-01-14",
+    "sygnatura": "I SA/Bd 539/25",
+    "sad": "WSA",
+    "miasto": "Bydgoszcz",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Norwegia (NIS)",
+    "statek_typ": "sejsmograficzny statek badawczy",
+    "teza": "Statek badawczy służący wyłącznie prowadzeniu badań naukowych nie spełnia definicji transportu międzynarodowego.",
+    "uzasadnienie_sadu": "Sąd uznał, że definicji transportu międzynarodowego nie można utożsamiać z jakimkolwiek przemieszczaniem się jednostki, gdyż statki badawcze nie przewożą towarów ani pasażerów [1, 2]. Źródłem przychodów z takiej jednostki nie jest transport morski, a mobilność służy jedynie dotarciu do miejsca badań [2]. Sąd dopuścił dowody z ogólnodostępnych stron internetowych na potwierdzenie typu i ruchu jednostki [2].",
+    "podsumowanie": "Marynarz pracujący na statku sejsmicznym przegrał sprawę o ograniczenie zaliczek, ponieważ fiskus skutecznie zastosował „Trick słownikowy” oraz „Trick na Google” [2, 3]. Organ na podstawie danych z internetu podważył transportowy charakter jednostki, a Sąd potwierdził, że badania geofizyczne dna morskiego nie stanowią zarobkowego transportu osób lub ładunków [1, 2]. Sąd odrzucił również argumentację marynarza o szerokim traktatowym rozumieniu „international traffic” [1].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ulga abolicyjna",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-ol-511-25",
+    "data_orzeczenia": "2026-01-14",
+    "sygnatura": "I SA/Ol 511/25",
+    "sad": "WSA",
+    "miasto": "Olsztyn",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": "Norwegia",
+    "statek_typ": "tankowiec / bunkierka",
+    "teza": "Przewóz surowców odbywający się wyłącznie między portami jednego państwa nie stanowi transportu międzynarodowego.",
+    "uzasadnienie_sadu": "Sąd orzekł, że transport międzynarodowy musi odbywać się między portami różnych państw, a dowody wskazały, że w 2025 r. statki operowały tylko w Norwegii [42, 43]. Wykorzystano analizę aktualnych pozycji statków z internetu, aby podważyć oświadczenia o charakterze międzynarodowym rejsów [43]. Sąd przyjął wąską, słownikową definicję transportu z SJP PWN [44, 45].",
+    "podsumowanie": "Marynarz pracujący na tankowcach przegrał spór o zaliczki, bo fiskus zastosował „Trick na Google” [42, 46]. Urząd na podstawie danych z sieci wykazał, że statki nie opuszczały wód Norwegii, co Sąd uznał za wystarczające do zanegowania „międzynarodowości” transportu [43]. Dodatkowo zastosowano „Trick słownikowy”, odmawiając ulgi marynarzowi ze względu na lokalny charakter żeglugi armatora [45].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "tankowiec",
+      "ulga abolicyjna",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-563-23",
+    "data_orzeczenia": "2026-01-14",
+    "sygnatura": "II FSK 563/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek badawczy (research vessel)",
+    "teza": "Przeznaczenie statku do badań na morzu wyklucza uznanie go za eksploatowany w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "NSA przyjął, że transport morski to wyłącznie zarobkowy przewóz pasażerów i ładunków, co wyklucza statki badawcze i pomiarowe. „Transport morski oznacza więc przewóz statkami w celach zarobkowych pasażerów i ładunków przez wody morskie”. Sąd odwołał się do technicznych dyrektyw UE dotyczących statystyki przewozów morskich.",
+    "podsumowanie": "Kolejna porażka marynarza sektora badawczego. Fiskus skutecznie zastosował „Trick słownikowy” oraz „Trick na fragmentację”, przekonując sąd, że mobilność statku to jedynie „dojazd do pracy” (miejsca badań), a nie transport. NSA zignorował autonomiczne ujęcie traktatowe „international traffic”, opierając się na potocznych definicjach i statystyce, co zablokowało ograniczenie zaliczek.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ulga abolicyjna",
+      "SJP"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-408-25",
+    "data_orzeczenia": "2026-01-20",
+    "sygnatura": "I SA/Gd 408/25",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 lit. d Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": null,
+    "teza": "Brak faktycznej zapłaty podatku w Norwegii oraz bandera państwa trzeciego nie pozbawiają marynarza prawa do ulgi abolicyjnej.",
+    "uzasadnienie_sadu": "Sąd, powołując się na uchwałę siedmiu sędziów NSA, uznał, że kluczowa jest potencjalna możliwość opodatkowania w Norwegii, a nie faktyczna zapłata podatku u źródła [15, 16]. Miejsce rejestracji statku (bandera) pozostaje bez znaczenia dla stosowania Konwencji PL-Norwegia [17]. Pojęcie „zwolniony z podatku” należy rozumieć szeroko jako „niepodlegający podatkowi” [18].",
+    "podsumowanie": "Marynarz wygrał spór o ulgę abolicyjną za rok 2019. Sąd zmiażdżył systemowe bareizmy fiskusa: „Trick na banderę” oraz „Trick na brak zaświadczenia/podatku”, wskazując, że praca na statku pod banderą Bahamów u norweskiego armatora daje pełne prawo do ulgi [19, 20]. Wyrok potwierdza prymat traktatów międzynarodowych nad błędną, restrykcyjną praktyką urzędniczą, która przez lata krzywdziła marynarzy offshore [21].",
+    "tagi": ["abolicja", "Norwegia", "bandera", "zarząd", "7 sędziów"],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-409-25",
+    "data_orzeczenia": "2026-01-20",
+    "sygnatura": "I SA/Gd 409/25",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 lit. d Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": null,
+    "teza": "Prawo do ulgi abolicyjne przysługuje marynarzowi niezależnie od bandery statku i rezygnacji Norwegii z poboru podatku.",
+    "uzasadnienie_sadu": "WSA w Gdańsku podtrzymał linię orzeczniczą siedmiu sędziów NSA, stwierdzając, że ani brak obowiązku podatkowego w Norwegii, ani bandera państwa trzeciego nie blokują stosowania Konwencji [16, 22]. Sąd uznał, że celem nowelizacji z 2012 r. było równe traktowanie marynarzy niezależnie od rejestru statku [17]. Interpretacja organów została uznana za bezpodstawną „pułapkę interpretacyjną” [23].",
+    "podsumowanie": "Kolejne zwycięstwo marynarza (rok 2020) nad fiskusem stosującym „Trick na banderę” oraz „Trick na brak podatku” [24, 25]. Sąd uznał, że skoro armator ma zarząd w Norwegii, to praca na jego statkach (nawet pod banderą Bahamów) podlega pod metodę proporcjonalnego odliczenia i pełną abolicję [22, 26]. Sąd wypunktował, że urzędy nie mogą stosować prawa wewnętrznego do usprawiedliwienia niewykonywania traktatów [27].",
+    "tagi": ["abolicja", "Norwegia", "bandera", "zarząd", "uchwała"],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-856-25",
+    "data_orzeczenia": "2026-01-21",
+    "sygnatura": "I SA/Gd 856/25",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Panama",
+    "statek_typ": "mobilna jednostka wiertnicza (drilling ship)",
+    "teza": "Przewóz rzeczy i osób niebędący istotą funkcjonowania statku wiertniczego wyklucza uznanie go za eksploatowany w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd uznał, że statek wiertniczy nie jest jednostką eksploatowaną w transporcie międzynarodowym, gdyż jego głównym zadaniem jest wydobycie, a nie zarobkowy przewóz osób/ładunków [28]. Wykorzystano definicje słownikowe oraz dane z internetu wskazujące na stacjonarny charakter prac jednostki w Korei i Malezji [28]. Sąd podkreślił, że brak zapłaty podatku w Norwegii uniemożliwia uprawdopodobnienie prawa do ulgi [28].",
+    "podsumowanie": "Marynarz ze statku wiertniczego przegrał sprawę o zaliczki, ponieważ sąd zaakceptował bareizmy: „Trick na platformę” oraz „Trick na Google” [28, 29]. Fiskus na podstawie pozycji statku w sieci uznał, że jednostka „nie pływała” w transporcie, co Sąd podzielił, odrzucając argumentację o mobilności jednostki morskiej [28]. Dodatkowo zastosowano „Trick na brak zaświadczenia/podatku”, wiążąc ulgę z faktycznym drenażem portfela za granicą [28].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek wiertniczy",
+      "ulga abolicyjna",
+      "Norwegia"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-bk-468-25",
+    "data_orzeczenia": "2026-01-28",
+    "sygnatura": "I SA/Bk 468/25",
+    "sad": "WSA",
+    "miasto": "Białystok",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 1 i 3 Konwencji PL-UK",
+      "art. 27g ustawy PIT"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek bezpieczeństwa (Standby Safety Vessel)",
+    "teza": "Odmowa ograniczenia zaliczek jest nieuzasadniona, jeśli dochód podatnika podlega metodzie proporcjonalnego odliczenia i uprawnia do ulgi abolicyjnej.",
+    "uzasadnienie_sadu": "Sąd uznał, że organ popadł w niekonsekwencję, przyznając zastosowanie art. 14 ust. 1 Konwencji, a jednocześnie odmawiając ograniczenia zaliczek przez pryzmat art. 14 ust. 3 [11]. Skoro metoda proporcjonalnego odliczenia ma zastosowanie, marynarz ma prawo uprawdopodobnić prawo do ulgi abolicyjnej [11]. Postępowanie w trybie art. 22 § 2a O.p. ma być szybkie i oparte na uprawdopodobnieniu, a nie pełnym dowodzie [12].",
+    "podsumowanie": "Marynarz wygrał sprawę o zaliczki, ponieważ WSA obalił zastosowany przez fiskusa „Trick słownikowy” oraz „Trick na standard dowodowy” [12, 13]. Urząd blokował wniosek, twierdząc, że statek bezpieczeństwa nie wykonuje transportu, ale Sąd uznał to badanie za powierzchowne i zignorował fakt, że marynarz i tak ma prawo do ulgi na podstawie art. 14 ust. 1 Konwencji [12, 14]. To ważne zwycięstwo nad opieszałością i brakiem logiki organów podatkowych.",
+    "tagi": [
+      "zaliczki",
+      "ulga abolicyjna",
+      "transport międzynarodowy",
+      "Wielka Brytania",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-954-25",
+    "data_orzeczenia": "2026-01-28",
+    "sygnatura": "I SA/Gd 954/25",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 lit. d Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "chłodniowce",
+    "teza": "Zastosowanie ulgi abolicyjnej nie zależy od faktycznej zapłaty podatku za granicą ani od rejestru statku (NIS/NOR).",
+    "uzasadnienie_sadu": "Sąd uznał za błędne stanowisko organów uzależniające ulgę od zapłaty podatku w Norwegii [37]. Powołując się na linię siedmiu sędziów NSA, Sąd stwierdził, że bandera Bahamów nie wyklucza stosowania Konwencji PL-Norwegia, jeśli armator ma tam zarząd [38, 39]. Pojęcie „zwolniony” w traktacie oznacza rezygnację państwa źródła z poboru podatku [38].",
+    "podsumowanie": "Marynarz wygrał sprawę o abolicję za rok 2019. Sąd obalił stosowane przez urzędy bareizmy: „Trick na banderę” oraz „Trick na brak zaświadczenia/podatku” [38, 40]. Mimo że urzędnicy twierdzili, iż brak drenażu portfela w Norwegii blokuje ulgę w Polsce, Sąd nakazał stosowanie metody proporcjonalnego odliczenia i pełnej abolicji zgodnie z celem traktatowym [38, 41].",
+    "tagi": ["abolicja", "Norwegia", "bandera", "zarząd", "chłodniowiec"],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-301-24",
+    "data_orzeczenia": "2026-01-28",
+    "sygnatura": "II FSK 301/24",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 lit. d Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek transportowy (N)",
+    "teza": "Zastosowanie umowy o unikaniu podwójnego opodatkowania jest możliwe nawet przy braku faktycznej zapłaty podatku za granicą.",
+    "uzasadnienie_sadu": "NSA, bazując na wyroku siedmiu sędziów, stwierdził, że dla stosowania Konwencji wystarczy potencjalna możliwość opodatkowania w obu państwach [47, 48]. Sąd uznał, że rezygnacja Norwegii z poboru podatku (zwolnienie w prawie wewnętrznym) nie blokuje prawa marynarza do ulgi abolicyjnej w Polsce [48]. Wykazano, że miejsce rejestracji statku nie ma znaczenia dla ochrony traktatowej [48].",
+    "podsumowanie": "Wielkie zwycięstwo marynarza przed NSA. Sąd ostatecznie obalił systemowe bareizmy organów: „Trick na brak zaświadczenia/podatku” oraz „Trick na banderę” [47, 48]. Mimo że fiskus i WSA twierdzili, iż brak drenażu portfela w Norwegii wyklucza abolicję, NSA orzekł, że intencją zmian traktatowych było objęcie ulgą wszystkich marynarzy pracujących u norweskich armatorów [48, 49].",
+    "tagi": ["abolicja", "Norwegia", "7 sędziów", "zarząd", "PIT"],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-542-24",
+    "data_orzeczenia": "2026-01-28",
+    "sygnatura": "II FSK 542/24",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 lit. d Konwencji PL-Norwegia",
+      "art. 27g ustawy PIT"
+    ],
+    "statek_bandera": "Singapur",
+    "statek_typ": null,
+    "teza": "Brak obowiązku podatkowego w Norwegii oraz bandera państwa trzeciego nie wykluczają prawa marynarza do ulgi abolicyjnej.",
+    "uzasadnienie_sadu": "NSA, powołując się na uchwałę siedmiu sędziów, orzekł, że kluczowy jest norweski zarząd armatora, a nie faktyczna zapłata podatku za granicą. „Miejsce rejestracji statku pozostaje bez znaczenia dla stosowania Konwencji”. Sąd uznał, że rezygnacja przez Norwegię z poboru podatku nie blokuje metody proporcjonalnego odliczenia w Polsce.",
+    "podsumowanie": "Marynarz wygrał spór o abolicję, a NSA zmiażdżył systemowe bareizmy fiskusa: „Trick na banderę” oraz „Trick na brak zaświadczenia/podatku”. Organy bezprawnie twierdziły, że praca na statku pod banderą Singapuru u norweskiego armatora nie daje prawa do ulgi. Sąd potwierdził prymat traktatów międzynarodowych nad błędną, restrykcyjną praktyką urzędniczą.",
+    "tagi": ["abolicja", "Norwegia", "bandera", "zarząd", "uchwała"],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/E003D950A9"
+  },
+  {
+    "id": "ii-fsk-676-23",
+    "data_orzeczenia": "2026-01-28",
+    "sygnatura": "II FSK 676/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 lit. d Konwencji PL-Norwegia",
+      "art. 27g ustawy PIT"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "tankowiec",
+    "teza": "Prawo do ulgi abolicyjnej nie zależy od rejestru statku ani faktycznej zapłaty podatku w Norwegii.",
+    "uzasadnienie_sadu": "NSA potwierdził, że dla zastosowania Konwencji wystarczy potencjalna możliwość opodatkowania w państwie źródła. „Pojęcie 'zwolniony' w tym przypadku odnosi się do dochodów, od których Norwegia rezygnuje z poboru podatku”. Sąd uznał, że intencją zmian traktatowych było objęcie ulgą wszystkich marynarzy norweskich przedsiębiorstw.",
+    "podsumowanie": "Spektakularne zwycięstwo marynarza (analogiczne do II FSK 785/22), w którym NSA obalił bareizmy: „Trick na banderę” oraz „Trick na brak podatku”. Fiskus bezprawnie uzależniał ulgę od drenażu portfela za granicą, co sąd uznał za sprzeczne z celem traktatowym. Wyrok otwiera drogę do odzyskania podatku dla marynarzy pracujących na tankowcach pod obcymi banderami u norweskich armatorów.",
+    "tagi": ["abolicja", "Norwegia", "zarząd", "tankowiec", "7 sędziów"],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/E003D950A9"
+  },
+  {
+    "id": "ii-fsk-702-23",
+    "data_orzeczenia": "2026-01-29",
+    "sygnatura": "II FSK 702/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 27g ustawy PIT",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27 ust. 9 i 9a ustawy PIT"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "FPSO (pływający system wydobywczy, magazynowy i przeładunkowy)",
+    "teza": "Statek FPSO służący wydobyciu i magazynowaniu surowców nie realizuje funkcji transportu międzynarodowego.",
+    "uzasadnienie_sadu": "NSA uznał, że specyficzne przeznaczenie jednostki FPSO wyklucza ją z kategorii statków transportowych, gdyż jej celem jest produkcja, a nie przewóz osób/ładunków. „Głównym zadaniem tego statku jest zatem wykonywanie czynności specjalistycznych (...) nie zaś wykonywanie transportu”. Sąd przyjął prymat wykładni językowej pojęcia transport.",
+    "podsumowanie": "Marynarz pracujący na FPSO w Gujanie przegrał spór o abolicję, ponieważ NSA usankcjonował „Trick słownikowy” oraz „Trick na główne źródło przychodu”. Fiskus skutecznie wywiódł, że skoro armator zarabia na ropie, a nie na frachcie, to marynarzowi nie przysługuje ochrona traktatowa. Sąd odrzucił argumentację o mobilności jednostki morskiej, zrównując ją z instalacją przemysłową.",
+    "tagi": ["abolicja", "transport międzynarodowy", "FPSO", "Norwegia", "SJP"],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-935-25",
+    "data_orzeczenia": "2026-02-04",
+    "sygnatura": "I SA/Gd 935/25",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": "Cypr",
+    "statek_typ": "Research Vessel (statek sejsmograficzny)",
+    "teza": "Eksploatacja statku badawczego przeznaczonego do badań dna morskiego nie stanowi transportu międzynarodowego.",
+    "uzasadnienie_sadu": "Sąd orzekł, że zasadniczym przeznaczeniem statków badawczych jest nauka, a nie przewóz towarów i pasażerów w celach zarobkowych [30]. Podstawą ustaleń były dane z portalu Vesselfinder, które Sąd uznał za wiarygodny dowód na brak charakteru transportowego jednostki [30]. Sąd wskazał, że praca na statku badawczym wyklucza uprawdopodobnienie przesłanek z art. 14 ust. 3 Konwencji [31].",
+    "podsumowanie": "Marynarz-nawigator przegrał spór o ograniczenie zaliczek, gdyż fiskus skutecznie zastosował „Trick słownikowy” oraz „Trick na Google” [30, 32]. Sąd uznał, że skoro głównym celem statku nie jest fracht, to marynarzowi nie przysługuje ochrona traktatowa, mimo że jednostka operuje na wodach międzynarodowych [30]. Urząd skutecznie podważył oświadczenia strony, wykorzystując „Trick na brak zaświadczenia/podatku” w Wielkiej Brytanii [31].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ulga abolicyjna",
+      "Wielka Brytania"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-766-23",
+    "data_orzeczenia": "2026-02-10",
+    "sygnatura": "II FSK 766/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 15 ust. 3 Umowy PL-Singapur",
+      "art. 3 ust. 1 lit. h Umowy PL-Singapur"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek badawczy",
+    "teza": "Zasadnicze przeznaczenie statku do prac pomiarowych i geograficznych nie stanowi transportu międzynarodowego.",
+    "uzasadnienie_sadu": "Sąd uznał, że dla zastosowania ulgi konieczny jest zarobkowy przewóz osób lub towarów, a nie działalność naukowa. „Właściwe jest jego tłumaczenie z zastosowaniem definicji języka potocznego – jako przemieszczanie (przewóz) towarów i ludzi”. NSA odrzucił szerokie rozumienie „international traffic” jako jakiegokolwiek ruchu statku.",
+    "podsumowanie": "Marynarz ze statku badawczego operującego w Singapurze przegrał sprawę o zaliczki. Urząd wygrał, stosując „Trick słownikowy” oraz „Trick na Google”, podważając charakter pracy danymi z sieci. Sąd potwierdził, że przemieszczanie się naukowców i sprzętu badawczego nie jest transportem morskim w rozumieniu podatkowym, co blokuje prawo do ulgi abolicyjnej.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "Singapur",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-795-23",
+    "data_orzeczenia": "2026-02-17",
+    "sygnatura": "II FSK 795/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": ["art. 22 § 2a Ordynacji podatkowej"],
+    "statek_bandera": null,
+    "statek_typ": null,
+    "teza": "Brak zarzutu naruszenia art. 22 § 2a Ordynacji podatkowej w skardze kasacyjnej uniemożliwia podważenie odmowy ograniczenia zaliczek.",
+    "uzasadnienie_sadu": "NSA wskazał, że w sprawach o zaliczki podstawą prawną jest art. 22 § 2a O.p., a jego pominięcie w zarzutach czyni skargę kasacyjną niezasadną. „Brak jego wskazania w skardze kasacyjnej powoduje, że jest ona niezasadna”. Sąd odmówił merytorycznego badania charakteru statku z powodu błędów formalnych pełnomocnika.",
+    "podsumowanie": "Marynarz przegrał sprawę proceduralnie, wpadając w „pułapkę sformalizowania”. Mimo że spór dotyczył typu statku i abolicji, NSA w ogóle nie zbadał meritum, bo autor skargi kasacyjnej pominął kluczowy przepis proceduralny. Jest to przykład porażki wynikającej wyłącznie z błędów w konstrukcji środka odwoławczego, co fiskus skrupulatnie wykorzystał.",
+    "tagi": [
+      "zaliczki",
+      "skarga kasacyjna",
+      "błąd pełnomocnika",
+      "procedura",
+      "Wielka Brytania"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-951-25",
+    "data_orzeczenia": "2026-02-18",
+    "sygnatura": "I SA/Gd 951/25",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 21 ust. 1 pkt 23c u.p.d.o.f."
+    ],
+    "statek_bandera": "Cypr",
+    "statek_typ": "statek towarowy (S)",
+    "teza": "Brak uprawdopodobnienia wszystkich przesłanek zwolnienia z art. 21 ust. 1 pkt 23c u.p.d.o.f. wyklucza ograniczenie poboru zaliczek.",
+    "uzasadnienie_sadu": "Sąd uznał, że Skarżący nie przedłożył dowodów na to, że statek będzie używany do przewozu ładunków w żegludze międzynarodowej przez co najmniej 183 dni [33]. Podkreślono, że w trybie art. 22 § 2a O.p. to podatnik jest inicjatorem i musi uprawdopodobnić swoje racje wiarygodnymi środkami [33, 34]. Sąd odrzucił dokumenty anglojęzyczne bez tłumaczenia jako niemogące podlegać ocenie [35].",
+    "podsumowanie": "Marynarz przegrał sprawę o zaliczki, ponieważ fiskus zastosował „Trick na standard dowodowy”, żądając pełnego udowodnienia przesłanek zamiast ustawowego uprawdopodobnienia [33, 36]. Sąd zignorował fakt pracy na statku towarowym, uznając kserokopie książeczki żeglarskiej za niewystarczające [35]. Dodatkowo marynarz wpadł w „pułapkę sformalizowania”, nie powołując się we wniosku na ulgę abolicyjną, co uniemożliwiło sądowi jej zbadanie z urzędu [33].",
+    "tagi": [
+      "zaliczki",
+      "zwolnienie przedmiotowe",
+      "183 dni",
+      "transport międzynarodowy",
+      "standard dowodowy"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-802-23",
+    "data_orzeczenia": "2026-02-18",
+    "sygnatura": "II FSK 802/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 3 ust. 1 lit. h Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "Offshore Tug/Supply Ship (holownik/dostawczy)",
+    "teza": "Statek wsparcia i holownik obsługujący platformy nie jest jednostką eksploatowaną w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "NSA orzekł, że przemieszczanie się jednostki Supply Vessel służy jedynie obsłudze platform, a nie zarobkowemu transportowi morskiemu. „Transport obejmuje swoją definicja co do zasady tylko taki ruch, który ma na celu przemieszczanie ludzi lub towarów”. Za decydującą uznano wykładnię gramatyczną wspartą definicjami z SJP PWN.",
+    "podsumowanie": "Marynarz sektora offshore przegrał sprawę o zaliczki, ponieważ fiskus skutecznie zastosował „Trick słownikowy” oraz „Trick na Google”. Sąd uznał dane techniczne z internetu o charakterze statku Supply/ERRV za nadrzędne wobec dokumentacji marynarza. Sąd potwierdził, że funkcje pomocnicze i ratownicze nie stanowią transportu międzynarodowego, co pozbawia podatnika uprawnienia do ulgi.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "supply vessel",
+      "Wielka Brytania",
+      "SJP"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-bd-644-25",
+    "data_orzeczenia": "2026-02-25",
+    "sygnatura": "I SA/Bd 644/25",
+    "sad": "WSA",
+    "miasto": "Bydgoszcz",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Cypr / Singapur",
+    "statek_typ": "półzatapialna platforma zakwaterowania / Jack-Up",
+    "teza": "Jednostki offshore służące zakwaterowaniu lub pracom instalacyjnym nie są eksploatowane w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd przyjął, że transport morski oznacza przewóz statkami w celach zarobkowych pasażerów i ładunków, a przeznaczeniem spornych jednostek był montaż turbin i hotelarstwo [4]. Mobilność jednostek uznano za nieistotną, gdyż służyła jedynie dotarciu do miejsca pracy [5]. Za kluczowe uznano dane z rejestrów DNV oraz stron internetowych armatora określających jednostki jako „accommodation unit” [6, 7].",
+    "podsumowanie": "Marynarz sektora offshore przegrał spór o zaliczki, ponieważ fiskus zastosował zestaw bareizmów: „Trick na hotel”, „Trick słownikowy” oraz „Trick na marketing” [4, 6]. Sąd uznał, że praca na platformach mieszkalnych i instalacyjnych nie uprawnia do ulgi, przedkładając opisy marketingowe ze stron WWW armatora nad dokumentację marynarza [6, 8]. Sąd wypunktował również nieścisłości w określeniu faktycznego zarządu spółki, stosując „Trick na pośrednika” [9, 10].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek mieszkalny",
+      "ulga abolicyjna",
+      "offshore"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-824-23",
+    "data_orzeczenia": "2026-02-25",
+    "sygnatura": "II FSK 824/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 3 ust. 1 lit. h Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "High Speed Offshore Service Craft (jednostka usługowa)",
+    "teza": "Jednostka służąca obsłudze farm wiatrowych nie jest statkiem eksploatowanym w międzynarodowym transporcie morskim.",
+    "uzasadnienie_sadu": "Sąd uznał, że celem jednostki jest obsługa instalacji morskich, a nie odpłatny przewóz osób i towarów między państwami. „Jednostka ta, nie jest bowiem przeznaczona do odpłatnego przewozu pasażerów oraz towarów z jednego miejsca do drugiego”. Sąd oparł się na Dyrektywie 2009/42/WE, wyłączającej holowniki i statki serwisowe z transportu.",
+    "podsumowanie": "Marynarz pracujący przy farmach wiatrowych przegrał przed NSA spór o zaliczki. Fiskus wygrał, stosując bareizmy: „Trick słownikowy” oraz „Trick na fragmentację”, twierdząc, że przemieszczanie się personelu technicznego to jedynie instrument realizacji usług, a nie transport. Sąd zaakceptował prymat słowników i statystyki nad celem traktatowym ulgi abolicyjnej.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "farmy wiatrowe",
+      "Wielka Brytania",
+      "offshore"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-893-24",
+    "data_orzeczenia": "2026-02-25",
+    "sygnatura": "II FSK 893/24",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 27g ustawy PIT"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "High Speed Offshore Service Craft / OSV",
+    "teza": "Przewóz personelu i ładunków na morskie farmy wiatrowe nie stanowi zarobkowej eksploatacji statku w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "NSA powtórzył, że transport międzynarodowy oznacza odpłatny przewóz osób i towarów pomiędzy państwami, a nie obsługę instalacji offshore. „Jednostka ta, nie była bowiem przeznaczona do odpłatnego przewozu pasażerów oraz towarów z jednego miejsca do drugiego”. Sąd uznał komentarze do Modelowej Konwencji OECD za potwierdzające wąskie rozumienie transportu.",
+    "podsumowanie": "Kolejna sprawa marynarza obsługującego farmy wiatrowe zakończona porażką przed NSA. Fiskus skutecznie zastosował „Trick na marketing” i „Trick słownikowy”, negując transportowy charakter statków serwisowych. Sąd orzekł, że generowane przychody wynikają z usług inżynieryjnych, a nie z transportu morskiego, co ostatecznie zablokowało prawo do nielimitowanej ulgi abolicyjnej.",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "OSV",
+      "ulga abolicyjna",
+      "Wielka Brytania"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-881-23",
+    "data_orzeczenia": "2026-03-10",
+    "sygnatura": "II FSK 881/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f.",
+      "art. 22 ust. 1 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "jednostka zakwaterowania (hotel)",
+    "teza": "Praca na jednostce hotelowej operującej na szelfie obcego państwa nie stanowi pracy w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "NSA uznał, że skoro głównym zadaniem jednostki było zakwaterowanie pracowników na szelfie brazylijskim, to nie realizowała ona transportu [35]. „Jednostka, która nie jest przeznaczona do przewozu ludzi lub ładunków (...) nie może być uznana za taką, która jest eksploatowana w transporcie międzynarodowym”. Sąd wskazał dodatkowo na brak zapłaty podatku za granicą [36].",
+    "podsumowanie": "Spór o ulgę abolicyjną dla marynarza pracującego na „floatelu” w Brazylii. Fiskus wygrał, stosując „Trick na hotel” oraz „Trick na Google” poprzez podważenie oświadczeń danymi z sieci [35, 37]. NSA podtrzymał wyrok, wskazując, że jednostka stacjonarna przy platformach wiertniczych nie realizuje transportu, co w połączeniu z „Trickiem na brak zaświadczenia/podatku” zablokowało prawo do ulgi [35, 36].",
+    "tagi": [
+      "abolicja",
+      "hotel",
+      "Brazylia",
+      "Norwegia",
+      "transport międzynarodowy"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl/"
+  },
+  {
+    "id": "i-sa-gd-19-26",
+    "data_orzeczenia": "2026-03-17",
+    "sygnatura": "I SA/Gd 19/26",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 27 ust. 8-9a u.p.d.o.f.",
+      "art. 27g u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Singapur",
+    "statek_typ": "tankowiec do przewozu produktów chemicznych",
+    "teza": "Miejsce rejestracji statku oraz faktyczna zapłata podatku za granicą nie warunkują prawa do ulgi abolicyjnej.",
+    "uzasadnienie_sadu": "Sąd uznał, że potencjalna możliwość opodatkowania w Norwegii wystarcza do zastosowania Konwencji o unikaniu podwójnego opodatkowania. NSA w składzie siedmiu sędziów stwierdził, że „miejsce rejestracji statku pozostaje bez znaczenia dla stosowania ww. Konwencji” [1]. Brak zapłaty podatku u źródła nie blokuje stosowania metody proporcjonalnego odliczenia [2].",
+    "podsumowanie": "Marynarz pracujący na tankowcu pod banderą Singapuru wygrał spór o ulgę abolicyjną. Sąd wypunktował bezprawne stosowanie przez fiskusa „Tricku na banderę” oraz „Tricku na brak zaświadczenia/podatku”, wskazując na prymat przełomowej uchwały siedmiu sędziów NSA [1]. Wykazano, że kluczowy dla ulgi jest norweski zarząd armatora, a nie formalny rejestr jednostki czy faktyczny drenaż podatkowy za granicą.",
+    "tagi": ["abolicja", "Norwegia", "bandera", "zarząd", "PIT"],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/E003D950A9"
+  },
+  {
+    "id": "i-sa-ol-21-26",
+    "data_orzeczenia": "2026-03-18",
+    "sygnatura": "I SA/Ol 21/26",
+    "sad": "WSA",
+    "miasto": "Olsztyn",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 27g u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek wsparcia nurkowego (DSV)",
+    "teza": "Statek wsparcia nurkowego wykonujący zadania specjalistyczne nie jest jednostką eksploatowaną w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd przyjął, że transport międzynarodowy to wyłącznie zarobkowy przewóz towarów i pasażerów między portami różnych państw [8, 9]. „Jednostka ta z uwagi na charakter i przeznaczenie, nie spełnia wymogu eksploatacji w międzynarodowym transporcie morskim” [10]. Za decydującą uznano potoczną wykładnię językową wspartą definicjami z Wikipedii [8].",
+    "podsumowanie": "Marynarz starał się o ograniczenie zaliczek, jednak przegrał przez systemowe bareizmy organów: „Trick słownikowy” oraz „Trick na Google” [8, 11]. Fiskus wykorzystał dane z sieci, aby zakwalifikować jednostkę DSV jako statek wielozadaniowy, a sąd uznał, że przemieszczanie się nurków i sprzętu to jedynie instrument realizacji prac podwodnych. Sąd odrzucił również ochronę z interpretacji indywidualnej, stosując „Trick na standard dowodowy” [12, 13].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "DSV",
+      "Wielka Brytania",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-rz-570-25",
+    "data_orzeczenia": "2026-03-24",
+    "sygnatura": "I SA/Rz 570/25",
+    "sad": "WSA",
+    "miasto": "Rzeszów",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "dwufunkcyjny statek wiertniczy",
+    "teza": "Praca na statku wiertniczym służącym poszukiwaniu kopalin nie wyczerpuje przesłanek eksploatacji w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd uznał, że specyficzna budowa platformy wiertniczej wyklucza uznanie jej głównej funkcji za transportową [20]. „Jego głównym zadaniem jest poszukiwanie kopalin przy wykorzystaniu wysokospecjalistycznego wyposażenia”. Odwołano się do definicji transportu jako przewozu zarobkowego osób i rzeczy, wyłączając jednostki o charakterze przemysłowym [21].",
+    "podsumowanie": "Marynarz z branży wiertniczej przegrał spór o ograniczenie zaliczek. Urząd zablokował wniosek, stosując bareizmy takie jak „Trick słownikowy” oraz „Trick na platformę”, zrównując mobilny statek wiertniczy z instalacją stałą [20, 22]. Sąd uznał dane z ogólnodostępnych stron internetowych („Trick na Google”) za wystarczające do podważenia oświadczeń kapitana statku o charakterze transportowym jednostki [22].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek wiertniczy",
+      "Wielka Brytania",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-sz-869-25",
+    "data_orzeczenia": "2026-03-25",
+    "sygnatura": "I SA/Sz 869/25",
+    "sad": "WSA",
+    "miasto": "Szczecin",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 27g u.p.d.o.f."
+    ],
+    "statek_bandera": null,
+    "statek_typ": "Geotechnical Survey Vessel - statek badawczy",
+    "teza": "Statek badawczy służący realizacji operacji inżynieryjnych nie jest uznawany za eksploatowany w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd podzielił argumentację, że przewóz załogi i sprzętu na własne potrzeby badawcze jest kosztem, a nie zarobkowym źródłem przychodu [23]. „To nie przewóz rzeczy i osób za wynagrodzeniem był istotą funkcjonowania wymienionego statku”. Sąd oparł się na komentarzu MK OECD oraz potocznym rozumieniu słowa transport zamiast definicji traktatowej [23, 24].",
+    "podsumowanie": "Marynarz ze statku geotechnicznego nie uzyskał ograniczenia zaliczek na podatek. Fiskus skutecznie zastosował „Trick słownikowy” oraz „Trick na Google”, analizując charakter statku na podstawie danych z internetu zamiast przedłożonych dokumentów [25, 26]. Sąd uznał, że praca na jednostce wspierającej budowę farm wiatrowych nie uprawnia do ulgi dla marynarzy pracujących w transporcie międzynarodowym [23].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "Wielka Brytania",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-907-23",
+    "data_orzeczenia": "2026-03-26",
+    "sygnatura": "II FSK 907/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 3 ust. 1 lit. g Konwencji PL-Norwegia",
+      "art. 27g ust. 1 i 2 u.p.d.o.f.",
+      "art. 4a u.p.d.o.f."
+    ],
+    "statek_bandera": "Norwegia",
+    "statek_typ": "FPSO (pływający system wydobywczy, magazynowy i przeładunkowy)",
+    "teza": "Jednostka typu FPSO służąca wsparciu wydobycia surowców nie jest statkiem eksploatowanym w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "NSA uznał, że wobec braku definicji ustawowej należy stosować potoczne znaczenie słowa transport jako zarobkowy przewóz osób i towarów. Sąd stwierdził, że „jednostka, która nie jest przeznaczona do przewozu ludzi lub ładunków (...) nie można przyjąć, że jest ona eksploatowana w transporcie międzynarodowym”. Pomocniczy charakter statku względem platform wiertniczych wyklucza go z tej kategorii.",
+    "podsumowanie": "Marynarz starał się o ulgę abolicyjną za pracę na statku FPSO, jednak przegrał przez zastosowany przez fiskusa „Trick słownikowy”, który NSA w pełni zaaprobował przedkładając definicję z SJP nad autonomię prawa podatkowego. Sąd uznał pomocniczy cel jednostki za decydujący, stosując „Trick na główne źródło przychodu” i odrzucając argumenty o mobilności statku. Dodatkowo w postępowaniu dowodowym wyżej oceniono dane z zewnętrznych źródeł niż zaświadczenie armatora, co wpisuje się w „Trick na marketing”.",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "FPSO",
+      "umowa o unikaniu",
+      "PIT"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-459-25",
+    "data_orzeczenia": "2026-04-07",
+    "sygnatura": "II FSK 459/25",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 60 p.p.s.a.",
+      "art. 161 § 1 pkt 1 p.p.s.a.",
+      "art. 193 p.p.s.a."
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek do układania rur",
+    "teza": "Cofnięcie skargi kasacyjnej przez marynarza skutkuje umorzeniem postępowania przed Naczelnym Sądem Administracyjnym.",
+    "uzasadnienie_sadu": "Sąd umorzył postępowanie kasacyjne na skutek wniosku samego skarżącego o cofnięcie skargi. Sąd był związany tym oświadczeniem zgodnie z art. 60 p.p.s.a. Brak merytorycznego rozstrzygnięcia kwestii podatkowych przez NSA.",
+    "podsumowanie": "Sprawa dotyczyła marynarza ze statku do układania rur, który pierwotnie przegrał sprawę o zaliczki przed WSA w Rzeszowie. Po wniesieniu skargi kasacyjnej marynarz zdecydował się ją wycofać, co zakończyło proces bez zmiany negatywnego dla niego rozstrzygnięcia. Jest to przykład rezygnacji z dalszej batalii sądowej, prawdopodobnie z uwagi na ugruntowaną niekorzystną linię orzeczniczą NSA.",
+    "tagi": ["umorzenie", "NSA", "procedura", "cofnięcie skargi", "zaliczki"],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-1363-23",
+    "data_orzeczenia": "2026-04-08",
+    "sygnatura": "II FSK 1363/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 27g u.p.d.o.f.",
+      "art. 15 ust. 3 Umowy PL-ZEA",
+      "art. 3 ust. 2 Umowy PL-ZEA"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "Research Vessel - statki badawcze",
+    "teza": "Jednostki badawcze realizujące określone zadania naukowe nie są statkami wykorzystywanymi w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "NSA wskazał, że podstawową funkcją statków badawczych nie jest transport osób czy ładunków w znaczeniu handlowym [32]. „Słownikowe znaczenie pojęcia transport uzasadnia stwierdzenie, że transport oznacza działalność człowieka, której głównym celem jest przewóz osób i rzeczy”. Sąd odrzucił szeroką wykładnię autonomicznego pojęcia traktatowego [32, 33].",
+    "podsumowanie": "Marynarz przegrał przed NSA spór o ulgę abolicyjną za pracę dla armatora z ZEA. Fiskus skutecznie zastosował „Trick słownikowy” oraz „Trick na główne źródło przychodu”, negując transportowy charakter statków badawczych [32, 34]. NSA usankcjonował te praktyki, odrzucając argumentację o „przewozie danych pomiarowych” jako towaru i uznając badania dna morskiego za działalność wyłączoną z reżimu transportu międzynarodowego [32].",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ZEA",
+      "PIT"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-939-23",
+    "data_orzeczenia": "2026-04-08",
+    "sygnatura": "II FSK 939/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": ["art. 27g u.p.d.o.f.", "art. 15 ust. 3 Umowy PL-ZEA"],
+    "statek_bandera": null,
+    "statek_typ": "Research Vessel - jednostki badawcze",
+    "teza": "Statki badawcze o specyficznej budowie i przeznaczeniu naukowym nie są eksploatowane w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd uznał, że wykonywanie zadań na statku badawczym nie wyczerpuje pojęcia transportu w rozumieniu umów o unikaniu podwójnego opodatkowania [38]. „Ich podstawową funkcją nie jest transport osób czy ładunków w znaczeniu właściwym dla żeglugi handlowej” [39]. NSA przyjął potoczną wykładnię językową jako nadrzędną wobec definicji traktatowych [39].",
+    "podsumowanie": "Marynarz-nawigator przegrał sprawę o ulgę abolicyjną za pracę u armatora z ZEA. Fiskus skutecznie zablokował prawo do ulgi, stosując „Trick słownikowy” oraz „Trick na główne źródło przychodu” [39, 40]. NSA usankcjonował negowanie transportowego charakteru jednostek badawczych, uznając, że przemieszczanie się naukowców i specjalistycznego sprzętu to jedynie instrument realizacji zadań naukowych, a nie transport morski [38].",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ZEA",
+      "PIT"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-940-23",
+    "data_orzeczenia": "2026-04-08",
+    "sygnatura": "II FSK 940/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 27g u.p.d.o.f.",
+      "art. 15 ust. 3 Umowy PL-ZEA",
+      "art. 3 ust. 2 Umowy PL-ZEA"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "Research Vessel - jednostki badawcze",
+    "teza": "Wykonywanie zadań badawczych na specjalistycznych jednostkach nie uprawnia do korzystania z ulgi abolicyjnej dla marynarzy.",
+    "uzasadnienie_sadu": "NSA powtórzył, że transport oznacza działalność, której głównym celem jest przewóz osób i rzeczy, co wyklucza statki badawcze [41]. „Transport oznacza działalność człowieka, której głównym celem jest przewóz osób i rzeczy”. Sąd wskazał również na brak wykazania faktycznego zarządu armatora na terytorium ZEA [42].",
+    "podsumowanie": "Porażka marynarza przed NSA w sprawie o ulgę abolicyjną. Fiskus zastosował kombinację bareizmów: „Trick słownikowy”, „Trick na główne źródło” oraz „Trick na pośrednika/zarząd”, kwestionując faktyczną siedzibę armatora [42, 43]. Sąd uznał, że specyfika jednostki Research Vessel nie pozwala na zakwalifikowanie pracy jako transportu międzynarodowego, co pozbawia podatnika ochrony traktatowej [44].",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "ZEA",
+      "zarząd"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-rz-35-26",
+    "data_orzeczenia": "2026-04-14",
+    "sygnatura": "I SA/Rz 35/26",
+    "sad": "WSA",
+    "miasto": "Rzeszów",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "sejsmograficzny statek badawczy",
+    "teza": "Eksploatacja sejsmograficznego statku badawczego nie stanowi pracy w transporcie międzynarodowym w rozumieniu Konwencji.",
+    "uzasadnienie_sadu": "Sąd wskazał, że głównym zadaniem jednostki są badania geofizyczne, a nie odpłatny przewóz osób i towarów [14, 15]. „Dla zastosowania regulacji (...) konieczne jest, aby był on eksploatowany w transporcie międzynarodowym, czyli aby jego główną funkcją był transport międzynarodowy” [15]. Sąd oparł się na potocznym znaczeniu słowa transport, odrzucając szerokie rozumienie „international traffic” [16].",
+    "podsumowanie": "Sprawa dotyczyła ograniczenia poboru zaliczek dla marynarza ze statku sejsmicznego. Fiskus wygrał, skutecznie forsując „Trick słownikowy” oraz „Trick na główne źródło przychodu”, co sąd w pełni zaaprobował [15, 17, 18]. Sąd uznał, że skoro źródłem zysku armatora nie jest fracht, to praca na statku badawczym nie daje prawa do ograniczenia zaliczek, mimo że jednostka operuje na wodach różnych państw [19].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek badawczy",
+      "Wielka Brytania",
+      "PIT"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/D3017B45F2"
+  },
+  {
+    "id": "i-sa-wr-24-26",
+    "data_orzeczenia": "2026-04-16",
+    "sygnatura": "I SA/Wr 24/26",
+    "sad": "WSA",
+    "miasto": "Wrocław",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 27g u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek sejsmiczny (badawczy)",
+    "teza": "Mobilny statek sejsmiczny służący badaniom morskim nie spełnia przesłanki eksploatacji w transporcie międzynarodowym.",
+    "uzasadnienie_sadu": "Sąd uznał, że fizyczne przemieszczanie osób i towarów musi stanowić zarobkowy przewóz (fracht), aby zostało uznane za transport [27]. „Statek badawczy (do poszukiwania złóż) nie jest eksploatowany w transporcie międzynarodowym” [28]. Wykorzystano definicję transportu z internetowego słownika Merriam-Webster jako nadrzędną wobec pojęć z umowy UPO [28].",
+    "podsumowanie": "Spór o ograniczenie zaliczek dla marynarza pracującego dla norweskiego armatora na jednostce sejsmicznej. Urząd wygrał, stosując bareizmy: „Trick słownikowy” oraz „Trick na główne źródło przychodu” [27-29]. Sąd odrzucił dokumentację marynarza, uznając za wiarygodne informacje z sieci o badawczym charakterze jednostki („Trick na Google”), co uniemożliwiło uprawdopodobnienie prawa do ulgi abolicyjnej [30, 31].",
+    "tagi": [
+      "zaliczki",
+      "transport międzynarodowy",
+      "statek sejsmiczny",
+      "Norwegia",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-359-25",
+    "data_orzeczenia": "2026-04-16",
+    "sygnatura": "II FSK 359/25",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f.",
+      "art. 14k O.p."
+    ],
+    "statek_bandera": "Norwegia",
+    "statek_typ": "statek sejsmograficzny/badawczy",
+    "teza": "Wykonywanie pracy na statku badawczym wyklucza zastosowanie przepisów Konwencji o transporcie międzynarodowym, niezależnie od kraju eksploatacji.",
+    "uzasadnienie_sadu": "NSA podkreślił, że kluczową przesłanką jest eksploatacja w transporcie międzynarodowym, co oznacza przewóz towarów lub ludzi. Jednostki badawcze nie spełniają tego wymogu. Sąd stwierdził, że „wykluczona jest a limine możliwość zastosowania (...) art. 14 ust. 3 Konwencji” przy badaniu dna morskiego.",
+    "podsumowanie": "Sprawa dotyczyła marynarza na statku badawczym w Norwegii. Fiskus zastosował „Trick na banderę” (brak rejestru NIS) oraz „Trick słownikowy”, odmawiając abolicji. NSA oddalił skargę marynarza, uznając, że charakter statku (badawczy) jest nadrzędny, co zamyka drogę do ulgi. Sąd odrzucił też ochronę z interpretacji indywidualnej z uwagi na nieścisły opis stanu faktycznego.",
+    "tagi": [
+      "Norwegia",
+      "statek badawczy",
+      "transport międzynarodowy",
+      "abolicja",
+      "NSA"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-401-25",
+    "data_orzeczenia": "2026-04-16",
+    "sygnatura": "II FSK 401/25",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f.",
+      "art. 14k O.p."
+    ],
+    "statek_bandera": "Norwegia",
+    "statek_typ": "statek sejsmograficzny/badawczy",
+    "teza": "Brak eksploatacji statku w międzynarodowym transporcie morskim uniemożliwia skorzystanie z ulgi abolicyjnej na podstawie Konwencji PL-Norwegia.",
+    "uzasadnienie_sadu": "NSA podzielił zdanie, że statki badawcze nie realizują funkcji transportowej. Sąd uznał, że uchybienie WSA co do wagi rejestracji (NIS/NOR) nie miało wpływu na wynik, bo brak „transportu” sam w sobie blokuje ulgę. „Jeżeli zatem skarżący wykonywał pracę na pokładzie statku (...) wykluczona jest a limine możliwość zastosowania (...) art. 14 ust. 3”.",
+    "podsumowanie": "Bliźniacza sprawa do II FSK 359/25. Fiskus zablokował abolicję marynarzowi z jednostki sejsmicznej, stosując „Trick słownikowy”. NSA utrzymał negatywny wyrok, twierdząc, że badanie dna to nie transport. Marynarz stracił też ochronę z interpretacji indywidualnej, ponieważ organ uznał jej stan faktyczny za niepełny (prowokacyjny „Trick na standard dowodowy”).",
+    "tagi": [
+      "Norwegia",
+      "statek badawczy",
+      "abolicja",
+      "NSA",
+      "interpretacja indywidualna"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "ii-fsk-402-25",
+    "data_orzeczenia": "2026-04-16",
+    "sygnatura": "II FSK 402/25",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 27g u.p.d.o.f.",
+      "art. 14k O.p."
+    ],
+    "statek_bandera": "Norwegia",
+    "statek_typ": "statek sejsmograficzny/badawczy",
+    "teza": "Do przychodów marynarza ze statku nieeksploatowanego w transporcie międzynarodowym nie ma zastosowania metoda zaliczenia proporcjonalnego ani ulga abolicyjna.",
+    "uzasadnienie_sadu": "NSA powtórzył argumentację o braku charakteru transportowego jednostek badawczych. Sąd wskazał, że warunkiem abolicji jest podleganie przepisom UPO o transporcie, co przy badaniach geofizycznych nie zachodzi. Podkreślono, że „zastosowanie w sprawie art. 14 ust. 3 (...) warunkowane jest (...) by była ona wykonywana na pokładzie statku morskiego eksploatowanego w transporcie międzynarodowym”.",
+    "podsumowanie": "Trzeci z serii wyroków NSA dotyczących tego samego marynarza. Fiskus skutecznie zakwestionował abolicję, używając „Tricku na główne źródło przychodu” (badania vs transport). NSA uznał, że praca na statku offshore nie dającym zysków z frachtu nie uprawnia do ulg, co cementuje niekorzystną dla marynarzy offshore linię orzeczniczą NSA.",
+    "tagi": [
+      "Norwegia",
+      "statek sejsmiczny",
+      "ulga abolicyjna",
+      "NSA",
+      "transport międzynarodowy"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-rz-85-26",
+    "data_orzeczenia": "2026-04-21",
+    "sygnatura": "I SA/Rz 85/26",
+    "sad": "WSA",
+    "miasto": "Rzeszów",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a O.p.",
+      "art. 27g u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-UK"
+    ],
+    "statek_bandera": "Wielka Brytania",
+    "statek_typ": "Pipelayer (statek do układania rurociągów)",
+    "teza": "Specjalistyczna jednostka do układania rurociągów nie jest eksploatowana w transporcie międzynarodowym w rozumieniu Konwencji o unikaniu podwójnego opodatkowania.",
+    "uzasadnienie_sadu": "Sąd przyjął restrykcyjną definicję transportu międzynarodowego jako zarobkowego przewozu towarów i osób. Uznał, że główną funkcją statku jest budowa infrastruktury podmorskiej, a nie transport. Sąd stwierdził, że „przepis ten nie ma charakteru szerokiego (...) ograniczając zakres stosowania (...) do statków, które rzeczywiście wykonują przewóz towarów”.",
+    "podsumowanie": "Fiskus odmówił marynarzowi ograniczenia zaliczek, twierdząc, że statek do układania rur to nie „transport międzynarodowy”. Sąd podtrzymał tę decyzję, stosując klasyczny „Trick słownikowy” (prymat potocznej definicji nad traktatową) oraz „Trick na główne źródło przychodu”. Mimo dowodów na przemieszczanie ładunków, uznano to za czynność pomocniczą do prac podwodnych.",
+    "tagi": [
+      "offshore",
+      "transport międzynarodowy",
+      "Wielka Brytania",
+      "Pipelayer",
+      "ulga abolicyjna"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-222-26",
+    "data_orzeczenia": "2026-04-28",
+    "sygnatura": "I SA/Gd 222/26",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 27g u.p.d.o.f.",
+      "art. 44 ust. 1a, 3a, 7 u.p.d.o.f.",
+      "art. 22 § 2a O.p.",
+      "art. 207 § 2 O.p."
+    ],
+    "statek_bandera": null,
+    "statek_typ": "masowiec (bulk carrier)",
+    "teza": "Decyzja o ograniczeniu poboru zaliczek musi rozstrzygać o całości żądania podatnika za dany rok podatkowy.",
+    "uzasadnienie_sadu": "Sąd uznał, że organ nie może wydać decyzji dotyczącej tylko części wnioskowanego okresu, pomijając milczeniem pozostałe miesiące. „Decyzja wydana przez organ podatkowy musi stanowić rozstrzygnięcie całej sprawy zawisłej przed tym organem”. Brak orzeczenia co do części wniosku narusza art. 207 § 2 O.p.",
+    "podsumowanie": "Marynarz wnioskował o ograniczenie zaliczek na cały rok 2025, a fiskus ograniczył je tylko od października do grudnia, całkowicie ignorując okres od stycznia do września. Sąd uchylił tę decyzję, wykazując błąd proceduralny polegający na braku rozstrzygnięcia co do istoty całej sprawy. To przykład „Tricku na fragmentację” i nadużycia proceduralnego, gdzie organ sztucznie ogranicza zakres czasowy wniosku.",
+    "tagi": ["abolicja", "zaliczki", "Grecja", "procedura", "masowiec"],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-sz-929-25",
+    "data_orzeczenia": "2026-04-29",
+    "sygnatura": "I SA/Sz 929/25",
+    "sad": "WSA",
+    "miasto": "Szczecin",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a O.p.",
+      "art. 14 ust. 3 Konwencji PL-UK",
+      "art. 22 ust. 2 Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statek sejsmiczny/badawczy",
+    "teza": "Statek sejsmiczny przeznaczony do poszukiwania złóż nie wykonuje transportu międzynarodowego, co wyklucza prawo do ograniczenia poboru zaliczek.",
+    "uzasadnienie_sadu": "Sąd uznał, że transport morski to przewóz statkami w celach zarobkowych pasażerów i ładunków. Prace badawcze/sejsmiczne nie mieszczą się w tej definicji, a przemieszczanie się jednostki jest tylko elementem świadczenia usługi. „Fakt, że statek (...) posłużył jako środek transportu do przewiezienia materiałów i ludzi potrzebnych do wykonania usługi nie zmienia jego zasadniczego przeznaczenia”.",
+    "podsumowanie": "Marynarz pracujący na statku sejsmicznym chciał ograniczyć zaliczki z uwagi na abolicję, ale urząd odmówił, uznając, że to nie jest transport. Sąd oddalił skargę, stosując „Trick na główne źródło przychodu” oraz „Trick na Google” (oparcie się na opisach z internetu zamiast certyfikatów). Wyrok promuje wąskie rozumienie transportu, ignorując specyfikę sektora offshore.",
+    "tagi": [
+      "statek badawczy",
+      "sejsmiczny",
+      "Wielka Brytania",
+      "abolicja",
+      "uprawdopodobnienie"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-61-26",
+    "data_orzeczenia": "2026-05-05",
+    "sygnatura": "I SA/Gd 61/26",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 27g u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Gibraltar",
+    "statek_typ": "sejsmiczny statek badawczy",
+    "teza": "Sejsmograficzny statek badawczy operujący na szelfach różnych państw nie realizuje transportu międzynarodowego.",
+    "uzasadnienie_sadu": "Sąd uznał, że praca na statku sejsmicznym to działalność badawcza, a nie transportowa, co wyklucza prawo do pełnej ulgi abolicyjnej. Powołano się na prymat wykładni gramatycznej i definicję transportu z SJP PWN. „Statek sejsmiczny nie był eksploatowany w transporcie międzynarodowym (rozumianym jako taki ruch (...), który ma na celu przemieszczanie towarów lub ludzi)”.",
+    "podsumowanie": "Marynarz (Chief Observer) chciał ulgi abolicyjnej za pracę na wodach Grecji, UK i USA. Urząd wygrał, stosując „Trick słownikowy” i „Trick na główne źródło przychodu”. Sąd odrzucił argumentację o szerokim rozumieniu „international traffic” z wersji angielskiej Konwencji, uznając, że wersja polska i potoczne znaczenie słowa transport są rozstrzygające.",
+    "tagi": [
+      "ulga abolicyjna",
+      "statek sejsmiczny",
+      "transport międzynarodowy",
+      "Norwegia",
+      "SJP"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/E003D950A9"
+  },
+  {
+    "id": "i-sa-gd-226-26",
+    "data_orzeczenia": "2026-05-05",
+    "sygnatura": "I SA/Gd 226/26",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 27g u.p.d.o.f.",
+      "art. 27 ust. 9 i 9a u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-UK"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "statki offshorowe - układacze rur",
+    "teza": "Statki specjalistyczne służące budowie rurociągów podwodnych nie realizują transportu międzynarodowego w rozumieniu Konwencji.",
+    "uzasadnienie_sadu": "Sąd uznał, że transport musi być główną i zarobkową funkcją jednostki, a nie zadaniem pomocniczym wobec prac inżynieryjnych [3]. „Zasadniczym celem eksploatacji jednostki powinien być przewóz osób i ładunków, a nie realizacja innych zadań” [4]. Przyjęto wąską, słownikową definicję transportu morska zamiast autonomicznego ujęcia traktatowego [5].",
+    "podsumowanie": "Marynarz sektora offshore przegrał sprawę o ulgę abolicyjną, ponieważ sąd zaakceptował zestaw bareizmów fiskusa. Organ zastosował „Trick słownikowy”, „Trick na Google” oraz „Trick na marketing”, weryfikując charakter jednostek w internecie i uznając ich mobilność za nieistotny element procesu budowlanego [3, 6, 7]. Sąd potwierdził, że układanie rur to działalność przemysłowa, a nie transport zarobkowy uprawniający do preferencji.",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "układanie rur",
+      "Wielka Brytania",
+      "PIT"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/5B8599E900"
+  },
+  {
+    "id": "ii-fsk-736-24",
+    "data_orzeczenia": "2026-05-26",
+    "sygnatura": "II FSK 736/24",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "II instancja",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 lit. d Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": null,
+    "statek_typ": "tankowiec",
+    "teza": "Możliwość opodatkowania dochodu marynarza w Norwegii wystarcza do zastosowania ulgi abolicyjnej niezależnie od faktycznej zapłaty podatku.",
+    "uzasadnienie_sadu": "NSA orzekł, że intencją zmian traktatowych było objęcie ulgą wszystkich marynarzy norweskich przedsiębiorstw niezależnie od rejestru statku. Sąd stwierdził, że „sama rezygnacja przez organy norweskie z poboru podatku nie może automatycznie skutkować wyłączeniem z działania przepisów Konwencji”. NSA uznał przedłożoną dokumentację kapitańską za w pełni wystarczającą do uprawdopodobnienia roszczenia.",
+    "podsumowanie": "Spektakularne zwycięstwo marynarza nad fiskusem przed NSA. Sąd zmiażdżył systemowy „Trick na brak podatku” oraz „Trick na banderę”, wskazując na prymat przełomowej uchwały siedmiu sędziów. NSA orzekł, że dla prawa do ulgi abolicyjnej kluczowy jest norweski zarząd armatora, a nie faktyczny drenaż portfela za granicą czy formalna bandera statku.",
+    "tagi": ["abolicja", "Norwegia", "zarząd", "uchwała", "7 sędziów"],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/doc/E003D950A9"
+  },
+  {
+    "id": "ii-fsk-1425-22",
+    "data_orzeczenia": "2026-05-26",
+    "sygnatura": "II FSK 1425/22",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 14 ust. 3 Konwencji PL-Norwegia",
+      "art. 22 ust. 1 Konwencji PL-Norwegia",
+      "art. 27g ust. 1 i 2 ustawy o PIT"
+    ],
+    "statek_bandera": "Bahamy",
+    "statek_typ": "tankowiec",
+    "teza": "Zastosowanie Konwencji o unikaniu podwójnego opodatkowania nie zależy od miejsca rejestracji statku ani faktycznego poboru podatku za granicą.",
+    "uzasadnienie_sadu": "Sąd uznał, że dla zastosowania Konwencji kluczowa jest potencjalna możliwość opodatkowania, a nie faktyczna realizacja tego uprawnienia przez drugie państwo. Miejsce rejestracji statku (np. rejestry NIS/NOR) jest nieistotne dla statusu podatkowego marynarza. „Zastosowanie przepisów Konwencji UPO nie jest zatem uzależnione od tego czy dane Państwo skorzysta z przysługującego mu prawa poboru podatku”.",
+    "podsumowanie": "Fiskus próbował zablokować marynarzowi ulgę, stosując „Trick na banderę”, twierdząc, że brak wpisu do norweskiego rejestru wyklucza stosowanie umowy międzynarodowej. Sąd wypunktował również bezprawny „Trick na standard dowodowy”, wskazując, że w procedurze ograniczenia zaliczek wystarczy uprawdopodobnienie, a nie pełny dowód. NSA ostatecznie przyznał rację marynarzowi, uznając przedstawione dokumenty od armatora za wystarczające.",
+    "tagi": [
+      "abolicja",
+      "transport międzynarodowy",
+      "uprawdopodobnienie",
+      "zarząd rzeczywisty",
+      "bandera",
+      "Norwegia"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-58-26",
+    "data_orzeczenia": "2026-06-17",
+    "sygnatura": "I SA/Gd 58/26",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 22 § 2a Ordynacji podatkowej",
+      "art. 27g ustawy o PIT",
+      "art. 14 ust. 1-3 Konwencji PL-UK",
+      "art. 22 ust. 2 Konwencji PL-UK",
+      "art. 180 § 1 Ordynacji podatkowej",
+      "art. 145 § 1 pkt 1 lit. c p.p.s.a."
+    ],
+    "statek_bandera": "Wielka Brytania",
+    "statek_typ": "statek do przewożenia towarów",
+    "teza": "Pominięcie dokumentu payslip potwierdzającego opodatkowanie za granicą w procedurze uprawdopodobnienia ulgi abolicyjnej stanowi naruszenie zasad postępowania podatkowego.",
+    "uzasadnienie_sadu": "Sąd uznał, że organ niezasadnie pominął kluczowy dokument („payslip”) potwierdzający opodatkowanie w Wielkiej Brytanii, co naruszyło zasady prawdy obiektywnej i zaufania. Wskazał, że dokumenty przedłożone przez marynarza nie wymagały tłumaczenia przysięgłego, gdyż ich treść była prosta i zrozumiała. „Pominięcie zatem, wskazanego kluczowego dla sprawy dokumentu (...) czyni zasadnymi zarzuty naruszenia art. 120, art. 121 § 1, art. 122, art. 187, art. 188 i art. 191 O.p.”.",
+    "podsumowanie": "Fiskus próbował zablokować marynarzowi ograniczenie poboru zaliczek, stosując bezprawny „Trick na standard dowodowy” – zamiast zaakceptować uprawdopodobnienie, urząd wymagał pełnego udowodnienia faktów i odrzucił dokumentację płacową z uwagi na brak tłumaczenia przysięgłego. Sąd stanął po stronie marynarza, punktując, że organ zignorował dowody na pobyt powyżej 183 dni i faktyczne poddawanie dochodu pod system podatkowy UK. Wyrok podkreśla, że w uproszczonej procedurze z art. 22 § 2a O.p. to fiskus nie może sztucznie piętrzyć trudności dowodowych.",
+    "tagi": [
+      "abolicja",
+      "uprawdopodobnienie",
+      "Wielka Brytania",
+      "payslip",
+      "standard dowodowy",
+      "bareizm"
+    ],
+    "link_cbis": "http://orzeczenia.nsa.gov.pl"
+  },
+  {
+    "id": "i-sa-gd-363-26",
+    "data_orzeczenia": "2026-06-09",
+    "sygnatura": "I SA/Gd 363/26",
+    "sad": "WSA",
+    "miasto": "Gdańsk",
+    "instancja": "WSA",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 27g u.p.d.o.f.",
+      "art. 45 ust. 3a u.p.d.o.f.",
+      "art. 27 ust. 9 u.p.d.o.f."
+    ],
+    "statek_bandera": null,
+    "statek_typ": null,
+    "teza": "Zwrot zagranicznego podatku odliczonego w latach poprzednich podlega doliczeniu do podatku w roku jego otrzymania.",
+    "uzasadnienie_sadu": "Sąd uznał, że obowiązek doliczenia zwrotu podatku wynika wprost z literalnego brzmienia art. 45 ust. 3a u.p.d.o.f. i nie wymaga stosowania pozajęzykowych dyrektyw interpretacyjnych. Sąd podkreślił, że „treść powołanego powyżej przepisu art. 45 ust. 3a u.p.d.o.f. jest jednoznaczna i nie nasuwa wątpliwości interpretacyjnych” [1].",
+    "podsumowanie": "Spór dotyczył tego, czy marynarz musi doliczyć do polskiego podatku zwrot nadpłaty otrzymany z Wielkiej Brytanii po kilku latach od faktycznej pracy. Fiskus uznał, że każdy zwrot uprzednio odliczonego podatku musi zwiększyć polskie zobowiązanie w roku otrzymania pieniędzy, co Sąd potwierdził. Jest to przejaw technicznego podejścia organów, które ignoruje argumentację marynarza o nierównym traktowaniu i ekonomicznej naturze zwrotu jako części wynagrodzenia [2-5].",
+    "tagi": ["ulga abolicyjna", "Wielka Brytania", "zwrot podatku", "PIT-36"],
+    "link_cbis": null
+  },
+  {
+    "id": "ii-fsk-1015-23",
+    "data_orzeczenia": "2026-04-16",
+    "sygnatura": "II FSK 1015/23",
+    "sad": "NSA",
+    "miasto": "Warszawa",
+    "instancja": "NSA",
+    "wynik_dla_marynarza": "pozytywny",
+    "przepisy_powolane": [
+      "art. 27g ust. 1 i 2 u.p.d.o.f.",
+      "art. 14 ust. 3 Konwencji PL-Norwegia"
+    ],
+    "statek_bandera": "Malta",
+    "statek_typ": "statek towarowy",
+    "teza": "Możliwość zastosowania ulgi abolicyjnej nie zależy od faktycznej zapłaty podatku w państwie źródła.",
+    "uzasadnienie_sadu": "NSA stwierdził, że dla zastosowania umowy o unikaniu podwójnego opodatkowania wystarczy potencjalna możliwość opodatkowania dochodu w obu państwach, a nie realny pobór daniny. Sąd uznał, że „warunkiem koniecznym zastosowania przepisów UPO nie jest ani podleganie ograniczonemu obowiązkowi podatkowemu w Norwegii, ani też zapłata podatku w Norwegii” [6].",
+    "podsumowanie": "Fiskus zastosował „Trick na banderę” oraz „Trick na brak zaświadczenia”, odmawiając marynarzowi ulgi z powodu braku zapłaty podatku w Norwegii i pracy pod banderą Malty [7, 8]. Sąd wypunktował bezprawny mechanizm fiskusa, wskazując, że wewnętrzne zwolnienia w Norwegii nie mogą pozbawiać podatnika praw wynikających z umowy międzynarodowej. Wyrok ostatecznie potwierdza prawo do pełnej ulgi abolicyjnej dla marynarzy pracujących dla norweskich armatorów w transporcie międzynarodowym [6, 9].",
+    "tagi": [
+      "abolicja",
+      "Norwegia",
+      "umowa o unikaniu",
+      "transport międzynarodowy",
+      "bandera"
+    ],
+    "link_cbis": "https://orzeczenia.nsa.gov.pl/cbo/query"
+  },
+  {
+    "id": "i-sa-sz-172-25",
+    "data_orzeczenia": "2026-05-20",
+    "sygnatura": "I SA/Sz 172/25",
+    "sad": "WSA",
+    "miasto": "Szczecin",
+    "instancja": "I",
+    "wynik_dla_marynarza": "negatywny",
+    "przepisy_powolane": [
+      "art. 21 ust. 1 pkt 23c ustawy o PIT",
+      "art. 21 ust. 35 ustawy o PIT",
+      "art. 5a pkt 48 lit. c ustawy o PIT"
+    ],
+    "statek_bandera": "Cypr",
+    "statek_typ": "Multi Purpose Offshore Vessel (OSCV/MRSV)",
+    "teza": "Praca na statku offshore służącym do robót podwodnych nie uprawnia do zwolnienia podatkowego dla marynarzy.",
+    "uzasadnienie_sadu": "Sąd uznał, że jednostka [...] nie była używana do zarobkowego przewozu ładunku lub pasażerów, lecz do zadań podwodnych i instalacyjnych [4, 5]. „Jego źródłem przychodów nie jest przewóz ładunku lub pasażerów” [6]. Dodatkowo marynarz uchybił terminowi złożenia zaświadczenia armatora, co jest warunkiem koniecznym zwolnienia [7, 8].",
+    "podsumowanie": "Marynarz domagał się stwierdzenia nadpłaty, twierdząc, że jego praca na statku offshore podlega zwolnieniu z PIT. Fiskus odmówił, stosując „Trick słownikowy” i uznając, że transport sprzętu niezbędnego do prac podwodnych nie jest zarobkowym przewozem towarów [9, 10]. Sąd poparł tę argumentację i dodatkowo wytknął złożenie zaświadczenia po terminie 30 kwietnia. W sprawie wystąpił również „Trick na Google”, gdyż organ czerpał wiedzę o przeznaczeniu statku ze stron internetowych armatora zamiast z certyfikatów technicznych [5, 11, 12].",
+    "tagi": [
+      "marynarz",
+      "offshore",
+      "zwolnienie przedmiotowe",
+      "żegluga międzynarodowa",
+      "zaświadczenie armatora"
+    ],
+    "link_cbis": null
+  }
+]
